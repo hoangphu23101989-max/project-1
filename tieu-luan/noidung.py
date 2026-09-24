@@ -49,7 +49,7 @@ CHU_VIET_TAT = [
 BANG_31_TIEU_DE = ("Bảng 3.1. Quy trình đánh giá hoạt tính ức chế enzyme "
                    "theo các cấp độ tiếp cận bản chất")
 BANG_31_NGUON = ("Nguồn: Học viên tổng hợp và đề xuất trên cơ sở "
-                 "[10], [11], [12], [13], [15], [16], [17], [20], [21], [23].")
+                 "[5], [10], [11], [12], [13], [15], [16], [17], [20], [21], [23].")
 # Cột 1: dòng đầu (in đậm) là tên cấp độ, dòng sau là câu hỏi về bản chất.
 BANG_31 = [
     ("Cấp độ và câu hỏi về bản chất", "Phép thử, kiểm chứng", "Giả tượng cần loại trừ"),
@@ -190,7 +190,7 @@ NOI_DUNG = [
     ("p", "Bản chất và hiện tượng thống nhất với nhau: bản chất bao giờ cũng bộc lộ ra thông qua hiện "
           "tượng, còn hiện tượng bao giờ cũng là sự biểu hiện của một bản chất nhất định. Không có bản chất "
           "thuần túy tồn tại tách rời hiện tượng, cũng không có hiện tượng hoàn toàn không biểu hiện bản "
-          "chất. V.I. Lênin viết: “Bản chất hiện ra. Hiện tượng là có tính bản chất” [3]. Sự thống nhất "
+          "chất. V.I. Lênin viết: “Bản chất hiện ra, hiện tượng là có tính bản chất” [3]. Sự thống nhất "
           "còn thể hiện ở chỗ bản chất và hiện tượng về căn bản phù hợp với nhau: bản chất nào thì hiện "
           "tượng ấy; khi bản chất thay đổi thì hiện tượng biểu hiện nó cũng thay đổi theo; khi bản chất mất "
           "đi thì hiện tượng tương ứng cũng mất đi [2]. Chính sự thống nhất này là cơ sở khách quan cho "
@@ -268,8 +268,8 @@ NOI_DUNG = [
           "thử sinh hóa khác nhau và gọi các hợp chất mang chúng là hợp chất gây nhiễu đa phép thử (PAINS) "
           "[7]. Những hợp chất này tạo tín hiệu dương tính thông qua phản ứng cộng hóa trị với protein, chu "
           "trình oxy hóa – khử, tạo phức với ion kim loại, hấp thụ ánh sáng hoặc phát huỳnh quang, thay vì "
-          "thông qua gắn kết đặc hiệu với đích [8]. Nhiều khung cấu trúc thuộc nhóm này, như catechol, "
-          "quinon và các hệ enon liên hợp, lại phổ biến trong hợp chất thiên nhiên."),
+          "thông qua gắn kết đặc hiệu với đích [8]. Một số nhóm cấu trúc trong danh mục này, như catechol, "
+          "quinon và một số hệ enon liên hợp [7], lại phổ biến trong hợp chất thiên nhiên."),
     ("p", "Đối với hợp chất thiên nhiên, Bisson và cộng sự khai thác dữ liệu hơn 80 năm của cơ sở dữ liệu "
           "NAPRALERT và chỉ ra rằng chỉ 39 hợp chất chiếm vị trí nổi bật nhất về tần suất xuất hiện và số "
           "lượng hoạt tính được báo cáo. Tất cả các hợp chất này đều được gán cho rất nhiều hoạt tính khác "
@@ -311,16 +311,15 @@ NOI_DUNG = [
           "Thứ hai là không phân biệt hiện tượng với giả tượng do thiếu các thí nghiệm đối chứng cần thiết. "
           "Thứ ba là đồng nhất mô hình với đối tượng: coi enzyme nấm men là enzyme đích ở người, hoặc coi "
           "điểm số docking là ái lực gắn kết. Cả ba dạng sai lầm đều vi phạm yêu cầu không dừng lại ở hiện "
-          "tượng đã nêu ở mục 1.4. Áp lực công bố kết quả dương tính làm các sai lầm này khó được phát hiện; "
-          "biên tập viên nhiều tạp chí của Hiệp hội Hóa học Hoa Kỳ đã ra xã luận chung về vấn đề này, khuyến "
-          "nghị tác giả cung cấp bằng chứng thực nghiệm phù hợp khi báo cáo hoạt tính [5]."),
-    ("p", "Hệ quả thể hiện ở nhiều cấp độ. Ở cấp độ công trình, nguồn lực bị sử dụng cho những ứng viên "
-          "không có tác dụng thực. Ở cấp độ tài liệu khoa học, tỷ lệ hợp chất có đặc điểm giống chất kết "
-          "tập trong tài liệu hóa dược đã tăng khoảng 9 lần kể từ năm 1995 [15]. Ở cấp độ phát triển thuốc, "
+          "tượng đã nêu ở mục 1.4. Để hạn chế chúng, biên tập viên nhiều tạp chí của Hiệp hội Hóa học Hoa Kỳ "
+          "đã ra xã luận chung, yêu cầu tác giả phân tích khả năng gây nhiễu và, với hợp chất có nguy cơ này, "
+          "chứng minh hoạt tính bằng ít nhất hai phép thử khác nhau [5]."),
+    ("p", "Hệ quả là nguồn lực bị dùng cho những ứng viên không có tác dụng thực, và tỷ lệ hợp chất có đặc "
+          "điểm giống chất kết tập trong tài liệu hóa dược đã tăng khoảng 9 lần kể từ năm 1995 [15]. Ở cấp "
+          "độ phát triển thuốc, "
           "khoảng 90% ứng viên bước vào thử nghiệm lâm sàng không thành công, chủ yếu do thiếu hiệu quả lâm "
           "sàng (40–50%), độc tính không kiểm soát được (khoảng 30%) và tính chất giống thuốc kém (10–15%) "
-          "[22]. Tỷ lệ thiếu hiệu quả cao cho thấy khoảng cách đáng kể giữa những gì đo được ở giai đoạn "
-          "tiền lâm sàng và tác dụng thực trên người."),
+          "[22], cho thấy khoảng cách giữa kết quả tiền lâm sàng và tác dụng thực trên người."),
 
     # --------------------------------------------------------------- CHƯƠNG 3
     ("h1", "CHƯƠNG 3\nVẬN DỤNG CẶP PHẠM TRÙ BẢN CHẤT VÀ HIỆN TƯỢNG NHẰM NÂNG CAO ĐỘ TIN CẬY "
@@ -389,7 +388,8 @@ NOI_DUNG = [
           "dãy hợp chất tương tự, thu được từ phân lập hoặc bán tổng hợp, có hoạt tính biến đổi một cách có "
           "thể giải thích theo những thay đổi cấu trúc xác định, đó là bằng chứng cho một tương tác đặc hiệu "
           "với vị trí gắn kết. Ngược lại, các hợp chất gây nhiễu thường có SAR “phẳng” hoặc không nhất quán "
-          "[17], [21]. Ở đây, cái chung của một dãy hiện tượng (xu hướng SAR) cho phép nhận ra bản chất mà "
+          "[17], [21]; SAR chặt chẽ được xem là tiêu chí quan trọng nhất để phân biệt hợp chất gây nhiễu với "
+          "phối tử thực [5]. Ở đây, cái chung của một dãy hiện tượng (xu hướng SAR) cho phép nhận ra bản chất mà "
           "từng hiện tượng riêng lẻ (một giá trị IC_{50}) không thể chỉ ra. Cuối cùng, chứng minh sự gắn kết "
           "với đích trong môi trường tế bào, chẳng hạn bằng CETSA [16], là bước chuyển từ hệ tinh khiết sang "
           "hệ sinh học phức tạp hơn."),
@@ -474,54 +474,54 @@ TAI_LIEU_VIET = [
 ]
 
 TAI_LIEU_ANH = [
-    "Aldrich C., Bertozzi C., Georg G.I., Kiessling L., Lindsley C., Liotta D., Merz K.M., Schepartz A., "
+    "Aldrich C., Bertozzi C., Georg G.I., Kiessling L., Lindsley C., Liotta D., Merz K.M. Jr., Schepartz A., "
     "Wang S. (2017), “The ecstasy and agony of assay interference compounds”, *Journal of Medicinal "
-    "Chemistry*, 60(6), pp. 2165–2168.",
+    "Chemistry*, 60(6), pp. 2165–2168. DOI: 10.1021/acs.jmedchem.7b00229.",
     "Atanasov A.G., Zotchev S.B., Dirsch V.M., International Natural Product Sciences Taskforce, "
     "Supuran C.T. (2021), “Natural products in drug discovery: advances and opportunities”, *Nature Reviews "
-    "Drug Discovery*, 20(3), pp. 200–216.",
+    "Drug Discovery*, 20(3), pp. 200–216. DOI: 10.1038/s41573-020-00114-z.",
     "Baell J.B., Holloway G.A. (2010), “New substructure filters for removal of pan assay interference "
     "compounds (PAINS) from screening libraries and for their exclusion in bioassays”, *Journal of "
-    "Medicinal Chemistry*, 53(7), pp. 2719–2740.",
+    "Medicinal Chemistry*, 53(7), pp. 2719–2740. DOI: 10.1021/jm901137j.",
     "Baell J., Walters M.A. (2014), “Chemistry: Chemical con artists foil drug discovery”, *Nature*, "
-    "513(7519), pp. 481–483.",
+    "513(7519), pp. 481–483. DOI: 10.1038/513481a.",
     "Bisson J., McAlpine J.B., Friesen J.B., Chen S.-N., Graham J., Pauli G.F. (2016), “Can invalid "
     "bioactives undermine natural product-based drug discovery?”, *Journal of Medicinal Chemistry*, 59(5), "
-    "pp. 1671–1690.",
+    "pp. 1671–1690. DOI: 10.1021/acs.jmedchem.5b01009.",
     "Capuzzi S.J., Muratov E.N., Tropsha A. (2017), “Phantom PAINS: Problems with the utility of alerts "
     "for pan-assay interference compounds”, *Journal of Chemical Information and Modeling*, 57(3), "
-    "pp. 417–427.",
+    "pp. 417–427. DOI: 10.1021/acs.jcim.6b00465.",
     "Cheng Y., Prusoff W.H. (1973), “Relationship between the inhibition constant (K_{1}) and the "
     "concentration of inhibitor which causes 50 per cent inhibition (I_{50}) of an enzymatic reaction”, "
-    "*Biochemical Pharmacology*, 22(23), pp. 3099–3108.",
+    "*Biochemical Pharmacology*, 22(23), pp. 3099–3108. DOI: 10.1016/0006-2952(73)90196-2.",
     "Copeland R.A. (2013), *Evaluation of Enzyme Inhibitors in Drug Discovery: A Guide for Medicinal "
-    "Chemists and Pharmacologists*, 2nd ed., John Wiley & Sons, Hoboken, NJ.",
+    "Chemists and Pharmacologists*, 2nd ed., John Wiley & Sons, Hoboken, NJ. DOI: 10.1002/9781118540398.",
     "Feng B.Y., Shoichet B.K. (2006), “A detergent-based assay for the detection of promiscuous "
-    "inhibitors”, *Nature Protocols*, 1(2), pp. 550–553.",
+    "inhibitors”, *Nature Protocols*, 1(2), pp. 550–553. DOI: 10.1038/nprot.2006.77.",
     "Feng B.Y., Simeonov A., Jadhav A., Babaoglu K., Inglese J., Shoichet B.K., Austin C.P. (2007), “A "
     "high-throughput screen for aggregation-based inhibition in a large compound library”, *Journal of "
-    "Medicinal Chemistry*, 50(10), pp. 2385–2390.",
+    "Medicinal Chemistry*, 50(10), pp. 2385–2390. DOI: 10.1021/jm061317y.",
     "Irwin J.J., Duan D., Torosyan H., Doak A.K., Ziebart K.T., Sterling T., Tumanian G., Shoichet B.K. "
     "(2015), “An aggregation advisor for ligand discovery”, *Journal of Medicinal Chemistry*, 58(17), "
-    "pp. 7076–7087.",
+    "pp. 7076–7087. DOI: 10.1021/acs.jmedchem.5b01105.",
     "Jafari R., Almqvist H., Axelsson H., Ignatushchenko M., Lundbäck T., Nordlund P., Martinez Molina D. "
     "(2014), “The cellular thermal shift assay for evaluating drug target interactions in cells”, "
-    "*Nature Protocols*, 9(9), pp. 2100–2122.",
+    "*Nature Protocols*, 9(9), pp. 2100–2122. DOI: 10.1038/nprot.2014.138.",
     "McGovern S.L., Caselli E., Grigorieff N., Shoichet B.K. (2002), “A common mechanism underlying "
     "promiscuous inhibitors from virtual and high-throughput screening”, *Journal of Medicinal "
-    "Chemistry*, 45(8), pp. 1712–1722.",
+    "Chemistry*, 45(8), pp. 1712–1722. DOI: 10.1021/jm010533y.",
     "Nelson K.M., Dahlin J.L., Bisson J., Graham J., Pauli G.F., Walters M.A. (2017), “The essential "
-    "medicinal chemistry of curcumin”, *Journal of Medicinal Chemistry*, 60(5), pp. 1620–1637.",
+    "medicinal chemistry of curcumin”, *Journal of Medicinal Chemistry*, 60(5), pp. 1620–1637. DOI: 10.1021/acs.jmedchem.6b00975.",
     "Newman D.J., Cragg G.M. (2020), “Natural products as sources of new drugs over the nearly four "
-    "decades from 01/1981 to 09/2019”, *Journal of Natural Products*, 83(3), pp. 770–803.",
+    "decades from 01/1981 to 09/2019”, *Journal of Natural Products*, 83(3), pp. 770–803. DOI: 10.1021/acs.jnatprod.9b01285.",
     "Oki T., Matsui T., Osajima Y. (1999), “Inhibitory effect of α-glucosidase inhibitors varies "
-    "according to its origin”, *Journal of Agricultural and Food Chemistry*, 47(2), pp. 550–553.",
+    "according to its origin”, *Journal of Agricultural and Food Chemistry*, 47(2), pp. 550–553. DOI: 10.1021/jf980788t.",
     "Shoichet B.K. (2006), “Screening in a spirit haunted world”, *Drug Discovery Today*, 11(13–14), "
-    "pp. 607–615.",
+    "pp. 607–615. DOI: 10.1016/j.drudis.2006.05.014.",
     "Sun D., Gao W., Hu H., Zhou S. (2022), “Why 90% of clinical drug development fails and how to "
-    "improve it?”, *Acta Pharmaceutica Sinica B*, 12(7), pp. 3049–3062.",
+    "improve it?”, *Acta Pharmaceutica Sinica B*, 12(7), pp. 3049–3062. DOI: 10.1016/j.apsb.2022.02.002.",
     "Warren G.L., Andrews C.W., Capelli A.M., Clarke B., LaLonde J., Lambert M.H., Lindvall M., Nevins N., "
     "Semus S.F., Senger S., Tedesco G., Wall I.D., Woolven J.M., Peishoff C.E., Head M.S. (2006), “A "
     "critical assessment of docking programs and scoring functions”, *Journal of Medicinal Chemistry*, "
-    "49(20), pp. 5912–5931.",
+    "49(20), pp. 5912–5931. DOI: 10.1021/jm050362n.",
 ]
