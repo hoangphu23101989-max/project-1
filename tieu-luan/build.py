@@ -98,9 +98,30 @@ def para_fmt(p, align=None, first=None, left=None, right=None, before=None, afte
 
 TOKEN = re.compile(r"(\*\*.+?\*\*|\*.+?\*|_\{.+?\}|\^\{.+?\})")
 
+REF_KEYS = [k for k, _ in nd.TAI_LIEU_VIET] + [k for k, _ in nd.TAI_LIEU_ANH]
+REF_NUM = {k: i + 1 for i, k in enumerate(REF_KEYS)}
+assert len(REF_NUM) == len(REF_KEYS), "Khóa tài liệu tham khảo bị trùng"
+CITED = set()
+CITE = re.compile(r"\[@([^\]]+)\]")
+
+
+def cite(text):
+    """Thay [@khoa1; @khoa2] bằng số thứ tự [n1], [n2] theo danh mục tài liệu tham khảo."""
+    def rep(m):
+        nums = []
+        for k in m.group(1).split(";"):
+            k = k.strip().lstrip("@")
+            if k not in REF_NUM:
+                raise KeyError("Trích dẫn không có trong danh mục: " + k)
+            CITED.add(k)
+            nums.append(REF_NUM[k])
+        return ", ".join("[%d]" % n for n in sorted(set(nums)))
+    return CITE.sub(rep, text)
+
 
 def add_rich(p, text, size=None, bold=None, italic=None):
     """Thêm văn bản có định dạng nội dòng: **đậm**, *nghiêng*, _{dưới}, ^{trên}."""
+    text = cite(text)
     for part in TOKEN.split(text):
         if not part:
             continue
@@ -288,8 +309,8 @@ def toc_line(doc, text, page, level, bold=False, italic=False):
     indent = {1: 0.0, 2: 0.5, 3: 1.0}[level]
     hang = {1: 0.0, 2: 0.9, 3: 1.2}[level]
     p = doc.add_paragraph()
-    para_fmt(p, align=WD_ALIGN_PARAGRAPH.LEFT, left=indent + hang, first=-hang, right=1.0,
-             before=2 if level == 1 else 0, after=0, spacing=DAN_DONG)
+    para_fmt(p, align=WD_ALIGN_PARAGRAPH.LEFT, left=indent + hang, first=-hang, right=0.6,
+             before=0, after=0, spacing=DAN_DONG)
     p.paragraph_format.tab_stops.add_tab_stop(Cm(BE_RONG_CHU), WD_TAB_ALIGNMENT.RIGHT,
                                               WD_TAB_LEADER.DOTS)
     add_rich(p, text, size=CO_CHU, bold=bold, italic=italic)
@@ -327,6 +348,7 @@ def front_matter(doc, pages):
     p.paragraph_format.line_spacing = DAN_DONG
     toc_line(doc, "DANH MỤC CHỮ VIẾT TẮT", pages.get("__cvt", "i"), 1, bold=True)
     toc_line(doc, "DANH MỤC BẢNG", pages.get("__bang", "i"), 1, bold=True)
+    toc_line(doc, "DANH MỤC HÌNH", pages.get("__hinh", "i"), 1, bold=True)
     for k, (lvl, label, _) in enumerate(toc_entries()):
         toc_line(doc, label, pages.get(k, 0), lvl, bold=(lvl == 1), italic=(lvl == 3))
 
@@ -336,14 +358,25 @@ def front_matter(doc, pages):
     p.paragraph_format.line_spacing = DAN_DONG
     for ab, full in nd.CHU_VIET_TAT:
         q = doc.add_paragraph()
-        para_fmt(q, align=WD_ALIGN_PARAGRAPH.LEFT, left=3.0, first=-3.0, after=3, spacing=DAN_DONG)
-        q.paragraph_format.tab_stops.add_tab_stop(Cm(3.0))
+        para_fmt(q, align=WD_ALIGN_PARAGRAPH.LEFT, left=2.7, first=-2.7, after=0, spacing=DAN_DONG)
+        q.paragraph_format.tab_stops.add_tab_stop(Cm(2.7))
         add_rich(q, ab, size=CO_CHU, bold=True)
         add_rich(q, "\t" + full, size=CO_CHU)
 
-    p = centered(doc, "DANH MỤC BẢNG", CO_CHUONG, bold=True, before=24, after=12)
+    p = centered(doc, "DANH MỤC BẢNG", CO_CHUONG, bold=True, after=12)
+    p.paragraph_format.page_break_before = True
     p.paragraph_format.line_spacing = DAN_DONG
-    toc_line(doc, nd.BANG_31_TIEU_DE, pages.get("__bang31", 0), 1)
+    for key in figure_table_order("table"):
+        toc_line(doc, nd.BANG[key]["tieu_de"], pages.get(("bang", key), 0), 1)
+
+    p = centered(doc, "DANH MỤC HÌNH", CO_CHUONG, bold=True, before=24, after=12)
+    p.paragraph_format.line_spacing = DAN_DONG
+    for key in figure_table_order("figure"):
+        toc_line(doc, nd.HINH[key]["tieu_de"], pages.get(("hinh", key), 0), 1)
+
+
+def figure_table_order(kind):
+    return [b[1] for b in nd.NOI_DUNG if b[0] == kind]
 
 
 def add_heading(doc, block, first_in_section):
@@ -362,18 +395,20 @@ def add_heading(doc, block, first_in_section):
     return p
 
 
-def add_table_31(doc):
+def add_table(doc, key):
+    spec = nd.BANG[key]
     cap = doc.add_paragraph()
     para_fmt(cap, align=WD_ALIGN_PARAGRAPH.CENTER, first=0, before=6, after=6, keep_next=True)
-    add_rich(cap, nd.BANG_31_TIEU_DE, bold=True)
-    widths = [Cm(5.3), Cm(5.9), Cm(4.3)]
-    t = doc.add_table(rows=len(nd.BANG_31), cols=len(widths))
+    add_rich(cap, spec["tieu_de"], bold=True)
+    widths = [Cm(w) for w in spec["rong"]]
+    assert abs(sum(spec["rong"]) - BE_RONG_CHU) < 0.05, key
+    t = doc.add_table(rows=len(spec["hang"]), cols=len(widths))
     t.style = "Table Grid"
     t.alignment = WD_TABLE_ALIGNMENT.CENTER
     t.autofit = False
     for gc, w in zip(t._tbl.tblGrid.findall(qn("w:gridCol")), widths):
         gc.set(qn("w:w"), str(int(w.twips)))
-    for i, row in enumerate(nd.BANG_31):
+    for i, row in enumerate(spec["hang"]):
         row_props(t.rows[i], header=(i == 0))
         for j, txt in enumerate(row):
             c = t.cell(i, j)
@@ -391,7 +426,71 @@ def add_table_31(doc):
                 cell_shade(c, "D9D9D9")
     src = doc.add_paragraph()
     para_fmt(src, align=WD_ALIGN_PARAGRAPH.LEFT, first=0, before=4, after=8)
-    add_rich(src, nd.BANG_31_NGUON, italic=True)
+    add_rich(src, spec["nguon"], italic=True)
+
+
+def add_figure(doc, key):
+    spec = nd.HINH[key]
+    p = doc.add_paragraph()
+    para_fmt(p, align=WD_ALIGN_PARAGRAPH.CENTER, first=0, before=6, after=4, spacing=1.0,
+             keep_next=True)
+    p.add_run().add_picture(os.path.join(HERE, spec["tep"]), width=Cm(spec["rong_cm"]))
+    cap = doc.add_paragraph()
+    para_fmt(cap, align=WD_ALIGN_PARAGRAPH.CENTER, first=0, before=2, after=8)
+    add_rich(cap, spec["tieu_de"], bold=True)
+
+
+def make_figures():
+    """Vẽ Hình 4.1: các cấp độ tiếp cận bản chất trong đánh giá hoạt tính ức chế enzyme."""
+    import matplotlib
+    matplotlib.use("Agg")
+    import matplotlib.pyplot as plt
+    from matplotlib.patches import FancyBboxPatch
+    plt.rcParams["font.family"] = "Liberation Serif"
+    levels = [
+        ("1. Tín hiệu sơ cấp", "Tín hiệu lặp lại, thuộc về chính hợp chất", "Nhiễu quang học; tạp chất"),
+        ("2. Liều – đáp ứng", "Quy luật phụ thuộc nồng độ", "Đường cong dốc\nbất thường"),
+        ("3. Tính đặc hiệu", "Tác dụng đặc hiệu với enzyme đích", "Kết tập keo; ion kim loại;\n"
+                                                                  "phản ứng không đặc hiệu"),
+        ("4. Cơ chế", "Kiểu ức chế, hằng số ức chế, liên kết trực tiếp", "Suy diễn cơ chế\n"
+                                                                       "từ điểm số docking"),
+        ("5. Quan hệ cấu trúc – hoạt tính", "Tính nhất quán trong dãy đồng loại", "SAR “phẳng”"),
+        ("6. Tương ứng với đích sinh học", "Tác dụng trên đích ở người, tế bào, cơ thể",
+         "Mô hình enzyme\nkhông tương đồng"),
+    ]
+    fig, ax = plt.subplots(figsize=(6.3, 6.0))
+    ax.set_xlim(0, 100)
+    ax.set_ylim(0, 106)
+    ax.axis("off")
+    h, gap, y0 = 12.2, 3.2, 6.0
+    ax.text(37.5, 102.5, "Cấp độ tiếp cận bản chất", ha="center", va="center", fontsize=10.5,
+            fontweight="bold")
+    ax.text(84.0, 102.5, "Giả tượng cần loại trừ", ha="center", va="center", fontsize=10.5,
+            fontweight="bold")
+    for i, (name, q, fake) in enumerate(levels):
+        y = y0 + i * (h + gap)
+        shade = 0.95 - 0.07 * i
+        ax.add_patch(FancyBboxPatch((10, y), 55, h, boxstyle="round,pad=0.3,rounding_size=1.2",
+                                    fc=(shade, shade, shade), ec="black", lw=0.9))
+        ax.text(37.5, y + h * 0.66, name, ha="center", va="center", fontsize=10, fontweight="bold")
+        ax.text(37.5, y + h * 0.28, q, ha="center", va="center", fontsize=9)
+        ax.add_patch(FancyBboxPatch((69, y), 30, h, boxstyle="round,pad=0.3,rounding_size=1.2",
+                                    fc="white", ec="black", lw=0.8, ls="--"))
+        ax.text(84, y + h / 2, fake, ha="center", va="center", fontsize=9, style="italic")
+        ax.annotate("", xy=(69, y + h / 2), xytext=(65.6, y + h / 2),
+                    arrowprops=dict(arrowstyle="-", lw=0.8, color="black", ls=":"))
+        if i < len(levels) - 1:
+            ax.annotate("", xy=(37.5, y + h + gap - 0.2), xytext=(37.5, y + h + 0.3),
+                        arrowprops=dict(arrowstyle="-|>", lw=1.0, color="black"))
+    top = y0 + len(levels) * (h + gap) - gap
+    ax.annotate("", xy=(4, top), xytext=(4, y0), arrowprops=dict(arrowstyle="-|>", lw=1.6,
+                                                                color="black"))
+    ax.text(1.2, (top + y0) / 2, "Nhận thức đi sâu từ hiện tượng đến bản chất", rotation=90,
+            ha="center", va="center", fontsize=9.5)
+    ax.text(4, y0 - 3.2, "HIỆN TƯỢNG", ha="center", va="center", fontsize=8.5, fontweight="bold")
+    ax.text(4, top + 3.0, "BẢN CHẤT", ha="center", va="center", fontsize=8.5, fontweight="bold")
+    fig.savefig(os.path.join(HERE, nd.HINH["H4_1"]["tep"]), dpi=300, bbox_inches="tight")
+    plt.close(fig)
 
 
 def references(doc):
@@ -404,7 +503,7 @@ def references(doc):
         q = doc.add_paragraph()
         para_fmt(q, align=WD_ALIGN_PARAGRAPH.LEFT, first=0, before=6, after=3, keep_next=True)
         add_rich(q, label, bold=True)
-        for ref in items:
+        for _, ref in items:
             n += 1
             r = doc.add_paragraph()
             para_fmt(r, align=WD_ALIGN_PARAGRAPH.JUSTIFY, left=1.0, first=-1.0, after=4)
@@ -478,7 +577,12 @@ def build(pages, out_docx):
             para_fmt(p, align=WD_ALIGN_PARAGRAPH.JUSTIFY, first=1.0)
             add_rich(p, block[1])
         elif kind == "table":
-            add_table_31(doc)
+            add_table(doc, block[1])
+        elif kind == "figure":
+            add_figure(doc, block[1])
+    thieu = [k for k in REF_KEYS if k not in CITED]
+    if thieu:
+        raise RuntimeError("Tài liệu tham khảo chưa được trích dẫn: " + ", ".join(thieu))
     references(doc)
     zoom = doc.settings.element.find(qn("w:zoom"))
     if zoom is not None and zoom.get(qn("w:percent")) is None:
@@ -505,12 +609,13 @@ def page_texts(pdf_path):
 def locate(pdf_path):
     texts = page_texts(pdf_path)
     toc_start = next(i for i, t in enumerate(texts) if "MỤCLỤC" in t)
-    cvt = next(i for i, t in enumerate(texts) if t.find("DANHMỤCCHỮVIẾTTẮT") != -1 and i > toc_start
-               and "CETSA" in t)
-    body = next(i for i, t in enumerate(texts) if "Hợpchấtthiênnhiênvàcáccấutrúc" in t)
+    body = next(i for i, t in enumerate(texts) if "1.Tínhcấpthiếtcủađềtài" in t)
+    cvt = next(i for i in range(toc_start + 1, body) if "DANHMỤCCHỮVIẾTTẮT" in texts[i])
     pages = {"__cvt": to_roman(cvt - toc_start + 1)}
-    bang_list = next(i for i in range(cvt, body) if "DANHMỤCBẢNG" in texts[i])
-    pages["__bang"] = to_roman(bang_list - toc_start + 1)
+    pages["__bang"] = to_roman(next(i for i in range(cvt, body) if "DANHMỤCBẢNG" in texts[i])
+                               - toc_start + 1)
+    pages["__hinh"] = to_roman(next(i for i in range(cvt, body) if "DANHMỤCHÌNH" in texts[i])
+                               - toc_start + 1)
     cur = body
     for k, (_, _, heading) in enumerate(toc_entries()):
         key = _norm(heading)[:45]
@@ -519,13 +624,17 @@ def locate(pdf_path):
             if cur >= len(texts):
                 raise RuntimeError("Không tìm thấy đề mục: " + heading)
         pages[k] = cur - body + 1
-    cap = _norm(nd.BANG_31_TIEU_DE)[:40]
-    pages["__bang31"] = next(i for i in range(body, len(texts)) if cap in texts[i]) - body + 1
+    for kind, store in (("table", "bang"), ("figure", "hinh")):
+        for key in figure_table_order(kind):
+            spec = nd.BANG[key] if kind == "table" else nd.HINH[key]
+            cap = _norm(spec["tieu_de"])[:40]
+            pages[(store, key)] = next(i for i in range(body, len(texts)) if cap in texts[i]) - body + 1
     return pages, len(texts), body
 
 
 def main():
     out_docx = os.path.join(HERE, TEN_TEP + ".docx")
+    make_figures()
     pages = {}
     for _ in range(3):
         build(pages, out_docx)
