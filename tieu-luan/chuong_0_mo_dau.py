@@ -29,17 +29,17 @@ BLOCKS = [
           "xác định cấu trúc và đánh giá hoạt tính sinh học của hợp chất thiên nhiên là một hướng nghiên "
           "cứu chủ đạo trong đào tạo sau đại học ngành Hóa học; trong đó, phép thử ức chế enzyme *in vitro* "
           "thường là căn cứ đầu tiên để kết luận một hợp chất có “tiềm năng” dược lý."),
-    ("p", "Tuy nhiên, giá trị IC_{50} thu được từ một phép thử *in vitro* chỉ là kết quả đo, trong những "
-          "điều kiện xác định, của tương tác giữa phân tử và hệ thử. Kết quả đó có thể phản ánh đúng một "
-          "cơ chế ức chế đặc hiệu, nhưng cũng có thể bắt nguồn từ sự kết tập keo của phân tử, từ phản ứng "
-          "không đặc hiệu với protein, từ nhiễu quang học hoặc từ sự không tương đồng giữa enzyme mô hình "
-          "và đích sinh học ở người [@baell2010; @mcgovern2002; @oki1999]. Việc đồng nhất tín hiệu đo được "
-          "với cơ chế tác dụng là một trong những yếu tố góp phần vào tỷ lệ thất bại khoảng 90% của các "
-          "ứng viên thuốc khi bước vào thử nghiệm lâm sàng [@sun2022]. Các khảo sát trong công nghiệp dược "
-          "phẩm cũng cho thấy phần lớn kết quả tiền lâm sàng được công bố không được lặp lại khi kiểm "
-          "chứng độc lập [@begley2012; @prinz2011]. Những dữ kiện này đặt ra một vấn đề không chỉ có tính "
-          "kỹ thuật mà có tính nhận thức luận: ranh giới giữa hiện tượng và bản chất, giữa hiện tượng và "
-          "giả tượng, đã bị xóa nhòa trong nhận thức và trong thực tiễn nghiên cứu."),
+    ("p", "Tuy nhiên, giá trị IC_{50} thu được từ một phép thử *in vitro* chỉ là kết quả đo, trong những điều "
+          "kiện xác định, của tương tác giữa phân tử và hệ thử. Kết quả đó có thể phản ánh đúng một cơ chế ức "
+          "chế đặc hiệu, nhưng cũng có thể bắt nguồn từ sự kết tập keo của phân tử, từ phản ứng không đặc hiệu "
+          "với protein, từ nhiễu quang học hoặc từ sự không tương đồng giữa enzyme mô hình và đích sinh học ở "
+          "người [@baell2010; @mcgovern2002; @oki1999]. Việc đồng nhất tín hiệu đo được với cơ chế tác dụng là "
+          "một trong những yếu tố góp phần vào tỷ lệ thất bại khoảng 90% của các ứng viên thuốc khi bước vào "
+          "thử nghiệm lâm sàng [@sun2022]. Các khảo sát trong công nghiệp dược phẩm cũng cho thấy phần lớn kết "
+          "quả tiền lâm sàng được công bố không được lặp lại khi kiểm chứng độc lập [@begley2012; @prinz2011]. "
+          "Những dữ kiện này đặt ra một vấn đề không chỉ có tính kỹ thuật mà có tính nhận thức luận: ranh giới "
+          "giữa hiện tượng và bản chất, giữa hiện tượng và giả tượng, chưa được phân biệt rõ trong thực tiễn "
+          "nghiên cứu."),
     ("p", "Xuất phát từ những lý do trên, học viên chọn đề tài “**Vận dụng cặp phạm trù bản chất và hiện "
           "tượng trong đánh giá hoạt tính ức chế enzyme của hợp chất thiên nhiên**” làm tiểu luận môn "
           "Triết học. Đề tài đi theo định hướng vận dụng nội dung của phép biện chứng duy vật để nhận "
@@ -54,25 +54,25 @@ BLOCKS = [
           "như quy luật chuyển hóa từ những thay đổi về lượng thành những thay đổi về chất hoặc quy luật "
           "thống nhất và đấu tranh của các mặt đối lập; việc vận dụng các cặp phạm trù vào những vấn đề "
           "phương pháp luận cụ thể của nghiên cứu thực nghiệm ít được khai thác hơn."),
-    ("p", "Về phương diện khoa học chuyên ngành, từ đầu thập niên 2000 đã hình thành một hướng nghiên cứu "
-          "về những kết quả hoạt tính không phản ánh tương tác đặc hiệu: hiện tượng ức chế do kết tập keo "
+    ("p", "Về phương diện khoa học chuyên ngành, từ đầu thập niên 2000 đã hình thành một hướng nghiên cứu về "
+          "những kết quả hoạt tính không phản ánh tương tác đặc hiệu: hiện tượng ức chế do kết tập keo "
           "[@mcgovern2002; @shoichet2006; @feng2007], các hợp chất gây nhiễu đa phép thử [@baell2010; "
           "@baell2014], các “thuốc vạn năng” không hợp lệ trong hóa học hợp chất thiên nhiên [@bisson2016; "
-          "@nelson2017], cùng những phê phán đối với việc áp dụng máy móc các bộ lọc cấu trúc "
-          "[@capuzzi2017]. Các công trình này tiếp cận vấn đề chủ yếu dưới góc độ kỹ thuật và thống kê. "
-          "Việc khái quát chúng dưới góc độ triết học, nhằm chỉ ra cơ sở phương pháp luận chung của các "
-          "biện pháp kỹ thuật riêng lẻ, là khoảng trống mà tiểu luận này hướng tới."),
+          "@nelson2017], cùng những phê phán đối với việc áp dụng máy móc các bộ lọc cấu trúc [@capuzzi2017]. "
+          "Các công trình này tiếp cận vấn đề chủ yếu dưới góc độ kỹ thuật và thống kê. Việc khái quát chúng "
+          "dưới góc độ triết học, nhằm chỉ ra cơ sở phương pháp luận chung của các biện pháp kỹ thuật riêng "
+          "lẻ, là khoảng trống mà tiểu luận hướng tới."),
 
     ("sub", "3. Mục tiêu và nhiệm vụ nghiên cứu"),
-    ("p", "Mục tiêu của tiểu luận là làm rõ nội dung và ý nghĩa phương pháp luận của cặp phạm trù bản chất "
-          "và hiện tượng, trên cơ sở đó đề xuất các nguyên tắc tiếp cận nhằm nâng cao tính khách quan và độ "
-          "tin cậy của các kết luận về hoạt tính ức chế enzyme của hợp chất thiên nhiên. Để đạt mục tiêu "
-          "đó, tiểu luận thực hiện bốn nhiệm vụ: (i) hệ thống hóa lịch sử vấn đề và quan niệm duy vật biện "
-          "chứng về bản chất, hiện tượng và mối quan hệ giữa chúng; (ii) phân tích sự vận động của nhận thức "
-          "từ hiện tượng đến bản chất qua một số trường hợp tiêu biểu trong lịch sử hóa học; (iii) phân tích "
-          "thực trạng và nguyên cội nhận thức luận của sự sai lệch giữa kết quả thử nghiệm và cơ chế tác dụng "
-          "trong nghiên cứu hợp chất thiên nhiên; (iv) đề xuất các nguyên tắc và một quy trình đánh giá theo "
-          "các cấp độ tiếp cận bản chất."),
+    ("p", "Mục tiêu của tiểu luận là làm rõ nội dung và ý nghĩa phương pháp luận của cặp phạm trù bản chất và "
+          "hiện tượng, trên cơ sở đó đề xuất các nguyên tắc tiếp cận nhằm nâng cao tính khách quan và độ tin "
+          "cậy của các kết luận về hoạt tính ức chế enzyme của hợp chất thiên nhiên. Để đạt mục tiêu đó, tiểu "
+          "luận thực hiện bốn nhiệm vụ: (i) hệ thống hóa lịch sử vấn đề và quan niệm duy vật biện chứng về bản "
+          "chất, hiện tượng và mối quan hệ giữa chúng; (ii) phân tích sự vận động của nhận thức từ hiện tượng "
+          "đến bản chất qua một số trường hợp tiêu biểu trong lịch sử hóa học; (iii) phân tích thực trạng và "
+          "nguồn gốc nhận thức luận của sự sai lệch giữa kết quả thử nghiệm và cơ chế tác dụng trong nghiên "
+          "cứu hợp chất thiên nhiên; (iv) đề xuất các nguyên tắc và một quy trình đánh giá theo các cấp độ "
+          "tiếp cận bản chất."),
 
     ("sub", "4. Đối tượng và phạm vi nghiên cứu"),
     ("p", "Đối tượng nghiên cứu là mối quan hệ giữa kết quả đo hoạt tính (với tư cách là hiện tượng) và cơ "
@@ -101,9 +101,8 @@ BLOCKS = [
           "của học viên các ngành khoa học tự nhiên."),
 
     ("sub", "7. Kết cấu của tiểu luận"),
-    ("p", "Ngoài Phần mở đầu, Kết luận và Danh mục tài liệu tham khảo, tiểu luận gồm bốn chương. Chương 1 "
-          "trình bày cơ sở lý luận về cặp phạm trù bản chất và hiện tượng. Chương 2 phân tích sự vận động "
-          "của nhận thức từ hiện tượng đến bản chất trong lịch sử hóa học. Chương 3 phân tích thực trạng "
-          "đánh giá hoạt tính ức chế enzyme của hợp chất thiên nhiên dưới góc độ của cặp phạm trù này. "
-          "Chương 4 đề xuất các nguyên tắc và quy trình vận dụng."),
+    ("p", "Ngoài Phần mở đầu, Kết luận và Danh mục tài liệu tham khảo, tiểu luận gồm bốn chương: Chương 1 – cơ "
+          "sở lý luận về cặp phạm trù bản chất và hiện tượng; Chương 2 – sự vận động của nhận thức từ hiện "
+          "tượng đến bản chất trong lịch sử hóa học; Chương 3 – thực trạng đánh giá hoạt tính ức chế enzyme "
+          "của hợp chất thiên nhiên; Chương 4 – các nguyên tắc và quy trình vận dụng."),
 ]

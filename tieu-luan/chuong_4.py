@@ -38,10 +38,10 @@ BLOCKS = [
 
     # ------------------------------------------------------------------ 4.2
     ("h2", "4.2. Nguyên tắc thứ hai: phân biệt hiện tượng với giả tượng"),
-    ("p", "Nguyên tắc này là sự cụ thể hóa của nguyên tắc toàn diện: xem xét sự vật trong tổng thể các mối "
-          "liên hệ của nó, bao gồm cả mối liên hệ với phương tiện đo và điều kiện đo. Giả tượng là hiện tượng "
-          "có thật nhưng biểu hiện bản chất dưới dạng xuyên tạc; vì vậy, không thể loại bỏ nó bằng cách bác "
-          "bỏ dữ liệu, mà phải xác định điều kiện khách quan đã sinh ra nó."),
+    ("p", "Nguyên tắc này là sự cụ thể hóa của quan điểm toàn diện: xem xét sự vật trong tổng thể các mối liên "
+          "hệ của nó, bao gồm cả mối liên hệ với phương tiện đo và điều kiện đo. Giả tượng là hiện tượng có "
+          "thật nhưng biểu hiện bản chất dưới dạng xuyên tạc; vì vậy, không thể loại bỏ nó bằng cách bác bỏ dữ "
+          "liệu, mà phải xác định điều kiện khách quan đã sinh ra nó."),
     ("p", "Đối với ức chế do kết tập keo, phép kiểm chứng chuẩn là lặp lại phép thử khi có mặt một lượng "
           "nhỏ chất hoạt động bề mặt không ion như Triton X-100; hoạt tính giảm mạnh là dấu hiệu của ức chế "
           "do kết tập [@feng2006]. Có thể bổ sung phép thử tăng nồng độ enzyme (hoạt tính của chất kết tập "
@@ -58,10 +58,10 @@ BLOCKS = [
           "trúc PAINS ban đầu được xây dựng từ sáu phép thử dùng cùng một công nghệ phát hiện; phân tích dữ "
           "liệu công khai của Capuzzi và cộng sự cho thấy 97% hợp chất mang cảnh báo PAINS thực tế hiếm khi "
           "cho kết quả dương tính trong loại phép thử đó, và 87 thuốc phân tử nhỏ đã được FDA phê duyệt có "
-          "chứa các cảnh báo này [@capuzzi2017]. Một cảnh báo cấu trúc tự nó cũng chỉ là một dấu hiệu thuộc "
-          "về hình thức; dùng nó để kết luận thay cho thực nghiệm là lặp lại sai lầm đồng nhất hiện tượng với "
-          "bản chất, chỉ theo chiều ngược lại, và là biểu hiện của chủ nghĩa giáo điều. Kết luận về tính hợp "
-          "lệ của hoạt tính phải dựa trên các thí nghiệm trực giao [@capuzzi2017]."),
+          "chứa các cảnh báo này [@capuzzi2017]. Một cảnh báo cấu trúc tự nó chỉ là một dấu hiệu bên ngoài, có "
+          "tính xác suất; dùng nó để kết luận thay cho thực nghiệm là lặp lại sai lầm đồng nhất hiện tượng với "
+          "bản chất, chỉ theo chiều ngược lại, và là biểu hiện của bệnh giáo điều. Kết luận về tính hợp lệ của "
+          "hoạt tính phải dựa trên các thí nghiệm trực giao [@capuzzi2017]."),
     ("p", "Cũng cần lưu ý rằng quan điểm toàn diện không đồng nghĩa với việc đặt mọi dữ kiện ngang hàng nhau. "
           "Chủ nghĩa chiết trung ghép nối một cách máy móc kết quả của nhiều phép thử mà không phân biệt vai "
           "trò của chúng; thuật ngụy biện lựa chọn những dữ kiện có lợi cho giả thuyết và bỏ qua những dữ kiện "
@@ -73,16 +73,16 @@ BLOCKS = [
 
     # ------------------------------------------------------------------ 4.3
     ("h2", "4.3. Nguyên tắc thứ ba: đi từ bản chất cấp một đến bản chất sâu hơn"),
-    ("p", "Nguyên tắc này là sự cụ thể hóa của nguyên tắc phát triển: nhận thức không dừng lại ở một trình "
-          "độ đã đạt được mà không ngừng đi sâu. Trong đánh giá hoạt tính ức chế enzyme, có thể phân biệt các "
-          "cấp độ bản chất tương ứng với những câu hỏi ngày càng sâu. Bản chất cấp một là sự tồn tại của một "
-          "tác dụng ức chế đặc hiệu, lặp lại được, sau khi đã loại trừ các giả tượng. Bản chất cấp hai là cơ "
-          "chế động học của sự ức chế: kiểu ức chế (cạnh tranh, không cạnh tranh, kháng cạnh tranh hay hỗn "
-          "hợp), giá trị K_{i}, tính thuận nghịch và sự phụ thuộc vào thời gian, được xác định bằng các thí "
-          "nghiệm động học enzyme và thí nghiệm pha loãng nhanh [@copeland2013]. Bản chất cấp ba là cấu trúc "
-          "của phức hợp enzyme – chất ức chế, được tiếp cận bằng các phương pháp đo liên kết trực tiếp như "
-          "ITC, SPR, STD-NMR, và ở mức cao nhất là cấu trúc tinh thể của phức hợp. Trình tự này lặp lại, ở "
-          "quy mô một công trình, con đường mà lịch sử động học enzyme đã đi qua (mục 2.5)."),
+    ("p", "Nguyên tắc này là sự cụ thể hóa của quan điểm phát triển: nhận thức không dừng lại ở một trình độ "
+          "đã đạt được mà không ngừng đi sâu. Trong đánh giá hoạt tính ức chế enzyme, có thể phân biệt các cấp "
+          "độ bản chất tương ứng với những câu hỏi ngày càng sâu. Bản chất cấp một là sự tồn tại của một tác "
+          "dụng ức chế đặc hiệu, lặp lại được, sau khi đã loại trừ các giả tượng. Bản chất cấp hai là cơ chế "
+          "động học của sự ức chế: kiểu ức chế (cạnh tranh, không cạnh tranh, kháng cạnh tranh hay hỗn hợp), "
+          "giá trị K_{i}, tính thuận nghịch và sự phụ thuộc vào thời gian, được xác định bằng các thí nghiệm "
+          "động học enzyme và thí nghiệm pha loãng nhanh [@copeland2013]. Bản chất cấp ba là cấu trúc của phức "
+          "hợp enzyme – chất ức chế, được tiếp cận bằng các phương pháp đo liên kết trực tiếp như ITC, SPR, "
+          "STD-NMR, và ở mức cao nhất là cấu trúc tinh thể của phức hợp. Trình tự này lặp lại, ở quy mô một "
+          "công trình, con đường mà lịch sử động học enzyme đã đi qua (mục 2.5)."),
     ("p", "Trong hệ các cấp độ này, docking và mô phỏng động lực học phân tử là mô hình lý thuyết giúp đề "
           "xuất và giải thích cách thức gắn kết, không phải bằng chứng độc lập cho sự tồn tại của hoạt tính. "
           "Mô hình chỉ có giá trị khi nhất quán với dữ liệu thực nghiệm ở các cấp độ thấp hơn: nếu động học "
@@ -91,28 +91,28 @@ BLOCKS = [
           "thực. Do các hàm tính điểm không dự đoán hữu ích ái lực gắn kết [@warren2006], điểm số docking "
           "không nên được dùng để xếp hạng hoạt tính hoặc để “xác nhận” giá trị IC_{50}. Đây là vận dụng "
           "trực tiếp quan điểm về vị trí của mô hình trong nhận thức đã nêu ở mục 1.6.2."),
-    ("p", "Một phương tiện quan trọng để tiếp cận bản chất là quan hệ cấu trúc – hoạt tính (SAR). Khi một "
-          "dãy hợp chất tương tự, thu được từ phân lập hoặc bán tổng hợp, có hoạt tính biến đổi một cách có "
-          "thể giải thích theo những thay đổi cấu trúc xác định, đó là bằng chứng cho một tương tác đặc hiệu "
-          "với vị trí gắn kết. Ngược lại, các hợp chất gây nhiễu thường có SAR “phẳng” hoặc không nhất quán "
+    ("p", "Một phương tiện quan trọng để tiếp cận bản chất là quan hệ cấu trúc – hoạt tính (SAR). Khi một dãy "
+          "hợp chất tương tự, thu được từ phân lập hoặc bán tổng hợp, có hoạt tính biến đổi một cách có thể "
+          "giải thích theo những thay đổi cấu trúc xác định, đó là bằng chứng cho một tương tác đặc hiệu với "
+          "vị trí gắn kết. Ngược lại, các hợp chất gây nhiễu thường có SAR “phẳng” hoặc không nhất quán "
           "[@mcgovern2002; @shoichet2006]; SAR chặt chẽ được xem là tiêu chí quan trọng nhất để phân biệt hợp "
           "chất gây nhiễu với phối tử thực [@aldrich2017]. Ở đây, theo quan hệ giữa cái chung và cái riêng, "
-          "cái chung của một dãy hiện tượng (xu hướng SAR) cho phép nhận ra bản chất mà từng hiện tượng riêng "
-          "lẻ (một giá trị IC_{50}) không thể chỉ ra. Cuối cùng, chứng minh sự gắn kết với đích trong môi "
-          "trường tế bào, chẳng hạn bằng CETSA [@jafari2014], là bước chuyển từ hệ tinh khiết sang hệ sinh "
-          "học phức tạp hơn."),
+          "cái chung chỉ tồn tại trong và thông qua cái riêng: xu hướng SAR chỉ bộc lộ qua từng giá trị hoạt "
+          "tính riêng lẻ, nhưng cho phép nhận ra bản chất mà không giá trị IC_{50} riêng lẻ nào tự nó chỉ ra "
+          "được. Cuối cùng, chứng minh sự gắn kết với đích trong môi trường tế bào, chẳng hạn bằng CETSA "
+          "[@jafari2014], là bước chuyển từ hệ tinh khiết sang hệ sinh học phức tạp hơn."),
 
     # ------------------------------------------------------------------ 4.4
     ("h2", "4.4. Nguyên tắc thứ tư: xem xét hiện tượng trong điều kiện lịch sử – cụ thể và kiểm nghiệm "
            "bằng thực tiễn"),
-    ("p", "Nguyên tắc này là sự cụ thể hóa của nguyên tắc lịch sử – cụ thể và nguyên tắc thống nhất giữa lý "
+    ("p", "Nguyên tắc này là sự cụ thể hóa của quan điểm lịch sử – cụ thể và nguyên tắc thống nhất giữa lý "
           "luận và thực tiễn. Hiện tượng luôn tồn tại trong những điều kiện cụ thể, và cách thức bản chất bộc "
           "lộ ra phụ thuộc vào các điều kiện đó. Trước hết, phải lựa chọn mô hình thử nghiệm tương ứng với "
           "đích sinh học mà kết luận hướng tới. Nếu mục tiêu là đánh giá khả năng kiểm soát đường huyết sau "
-          "ăn, kết quả trên α-glucosidase nấm men chỉ có giá trị sàng lọc sơ bộ; kết luận cần được kiểm "
-          "chứng trên α-glucosidase ruột non của động vật có vú hoặc enzyme người tái tổ hợp, với chất đối "
-          "chứng dương được đo trong cùng hệ thử [@oki1999]. Tương tự, kết luận về khả năng làm giảm tăng sắc "
-          "tố da cần được kiểm chứng trên tyrosinase người [@mann2018]."),
+          "ăn, kết quả trên α-glucosidase nấm men chỉ có giá trị sàng lọc sơ bộ; kết luận cần được kiểm chứng "
+          "trên α-glucosidase ruột non của động vật có vú hoặc enzyme người tái tổ hợp, với chất đối chứng "
+          "dương được đo trong cùng hệ thử [@oki1999]. Tương tự, kết luận về khả năng làm giảm tăng sắc tố da "
+          "cần được kiểm chứng trên tyrosinase người [@mann2018]."),
     ("p", "Nguyên tắc này cũng đòi hỏi đặt giá trị hoạt tính trong quan hệ với khả năng hợp chất đạt tới "
           "đích trong cơ thể. Một hợp chất có IC_{50} ở mức hàng chục micromol, kém bền trong môi trường sinh "
           "lý và có sinh khả dụng thấp khó tạo ra tác dụng tương ứng *in vivo*, như trường hợp curcumin cho "
@@ -126,11 +126,14 @@ BLOCKS = [
     ("p", "Bản thân tri thức về giả tượng hoạt tính cũng có tính lịch sử: ức chế do kết tập được mô tả có hệ "
           "thống năm 2002 [@mcgovern2002], cảnh báo PAINS được đề xuất năm 2010 [@baell2010], khái niệm IMPs "
           "cho hợp chất thiên nhiên được đưa ra năm 2016 [@bisson2016], và ngay sau đó giới hạn của cảnh báo "
-          "PAINS lại được chỉ ra [@capuzzi2017]. Tiến trình này tái hiện, trong phạm vi hẹp, quy luật phủ "
-          "định của phủ định trong nhận thức: mỗi tiêu chí mới phủ định tiêu chí cũ nhưng kế thừa yếu tố hợp "
-          "lý của nó. Nhận thức về bản chất của “hoạt tính” vì vậy là một quá trình đi sâu liên tục. Thực "
-          "tiễn, bao gồm thực nghiệm *in vivo* và thử nghiệm lâm sàng, là tiêu chuẩn cuối cùng để kiểm nghiệm "
-          "các kết luận về bản chất tác dụng của một hợp chất."),
+          "PAINS lại được chỉ ra [@capuzzi2017]. Tiến trình này mang hình thức của phủ định của phủ định: từ "
+          "chỗ chấp nhận trực tiếp kết quả phép thử, nhận thức chuyển sang phủ định nó bằng các tiêu chí cấu "
+          "trúc; đến lượt mình, việc áp dụng máy móc các tiêu chí cấu trúc bị phủ định khi giới hạn của chúng "
+          "được chỉ ra, và nhận thức quay trở lại với kết quả thực nghiệm, nhưng ở trình độ cao hơn, tức là "
+          "với hệ thống các thí nghiệm trực giao. Mỗi lần phủ định đều kế thừa yếu tố hợp lý của giai đoạn "
+          "trước; nhận thức về bản chất của “hoạt tính” vì vậy là một quá trình đi sâu liên tục. Thực tiễn, "
+          "bao gồm thực nghiệm *in vivo* và thử nghiệm lâm sàng, là tiêu chuẩn cuối cùng để kiểm nghiệm các "
+          "kết luận về bản chất tác dụng của một hợp chất."),
 
     # ------------------------------------------------------------------ 4.5
     ("h2", "4.5. Quy trình đánh giá theo các cấp độ tiếp cận bản chất"),
@@ -169,12 +172,13 @@ BLOCKS = [
           "mỗi kịch bản."),
     ("table", "B4_2"),
     ("p", "Điểm quan trọng của tình huống này không nằm ở kịch bản nào sẽ xảy ra, mà ở chỗ trong cả ba kịch "
-          "bản, kết luận cuối cùng đều khác với kết luận ban đầu. Ở kịch bản A, cái tưởng là bản chất hóa ra "
-          "là giả tượng. Ở kịch bản B, hiện tượng là có thật nhưng chỉ đúng trong một điều kiện cụ thể, và "
-          "việc mở rộng nó sang điều kiện khác là vi phạm tính cụ thể của chân lý. Ở kịch bản C, nhận thức đã "
-          "tiến đến bản chất cấp hai – cấp ba, nhưng kết luận vẫn phải giới hạn ở phạm vi đã được kiểm chứng "
-          "và để ngỏ bước kiểm nghiệm *in vivo*. Như vậy, quy trình không làm giảm giá trị của nghiên cứu hợp "
-          "chất thiên nhiên, mà làm cho giá trị ấy được xác lập trên cơ sở khách quan."),
+          "bản, kết luận cuối cùng đều khác với kết luận ban đầu. Ở kịch bản A, cái được coi là biểu hiện của "
+          "bản chất thực chất là giả tượng. Ở kịch bản B, hiện tượng là có thật nhưng chỉ tồn tại trong một "
+          "điều kiện cụ thể, và việc mở rộng tri thức về nó sang điều kiện khác là vi phạm tính cụ thể của "
+          "chân lý. Ở kịch bản C, nhận thức đã tiến đến bản chất cấp hai – cấp ba, nhưng kết luận vẫn phải "
+          "giới hạn ở phạm vi đã được kiểm chứng và để ngỏ bước kiểm nghiệm *in vivo*. Như vậy, quy trình "
+          "không làm giảm giá trị của nghiên cứu hợp chất thiên nhiên, mà làm cho giá trị ấy được xác lập trên "
+          "cơ sở khách quan."),
 
     # ------------------------------------------------------------------ 4.7
     ("h2", "4.7. Một số kiến nghị"),
@@ -218,9 +222,9 @@ BLOCKS = [
           "với vai trò phương pháp luận của triết học đối với các khoa học cụ thể."),
     ("sub", "Tiểu kết Chương 4"),
     ("p", "Chương 4 đã chuyển bốn yêu cầu phương pháp luận của cặp phạm trù bản chất và hiện tượng thành bốn "
-          "nguyên tắc cho hoạt động đánh giá hoạt tính ức chế enzyme, gắn với các nguyên tắc khách quan, toàn "
-          "diện, phát triển, lịch sử – cụ thể và thống nhất giữa lý luận và thực tiễn. Các nguyên tắc này "
-          "được cụ thể hóa thành quy trình sáu cấp độ, với yêu cầu cốt lõi là mức độ khẳng định trong kết "
-          "luận phải tương xứng với cấp độ bằng chứng đạt được. Tình huống minh họa cho thấy quy trình giúp "
-          "tránh cả chủ nghĩa kinh nghiệm hẹp hòi lẫn chủ nghĩa giáo điều trong diễn giải kết quả."),
+          "nguyên tắc cho hoạt động đánh giá hoạt tính ức chế enzyme, gắn với nguyên tắc khách quan, các quan "
+          "điểm toàn diện, phát triển, lịch sử – cụ thể và nguyên tắc thống nhất giữa lý luận và thực tiễn. "
+          "Các nguyên tắc này được cụ thể hóa thành quy trình sáu cấp độ, với yêu cầu cốt lõi là mức độ khẳng "
+          "định trong kết luận phải tương xứng với cấp độ bằng chứng đạt được. Tình huống minh họa cho thấy "
+          "quy trình giúp tránh cả bệnh kinh nghiệm lẫn bệnh giáo điều trong diễn giải kết quả."),
 ]

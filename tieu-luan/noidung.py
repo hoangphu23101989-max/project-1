@@ -34,10 +34,7 @@ NOI_DUNG = MO_DAU + CHUONG_1 + CHUONG_2 + CHUONG_3 + CHUONG_4 + KET_LUAN
 
 CHU_VIET_TAT = [
     ("[E], [S]", "Nồng độ enzyme, nồng độ cơ chất"),
-    ("ACE", "Enzyme chuyển angiotensin (Angiotensin-converting enzyme)"),
-    ("AChE", "Acetylcholinesterase"),
     ("CETSA", "Phép thử dịch chuyển nhiệt trong tế bào (Cellular thermal shift assay)"),
-    ("CRBN", "Cereblon"),
     ("DLS", "Tán xạ ánh sáng động (Dynamic light scattering)"),
     ("DMSO", "Dimethyl sulfoxid"),
     ("DTNB", "Acid 5,5'-dithiobis(2-nitrobenzoic) (thuốc thử Ellman)"),

@@ -4,6 +4,11 @@
 BLOCKS = [
     ("h1", "CHƯƠNG 1\nCƠ SỞ LÝ LUẬN VỀ CẶP PHẠM TRÙ BẢN CHẤT VÀ HIỆN TƯỢNG",
      "CHƯƠNG 1. CƠ SỞ LÝ LUẬN VỀ CẶP PHẠM TRÙ BẢN CHẤT VÀ HIỆN TƯỢNG"),
+    ("p", "Chương này trình bày cơ sở lý luận của tiểu luận theo trình tự đi từ cái chung đến cái riêng: từ "
+          "khái niệm phạm trù và hệ thống phạm trù của phép biện chứng duy vật, qua lịch sử vấn đề bản chất "
+          "và hiện tượng trong triết học, đến quan niệm duy vật biện chứng về cặp phạm trù này, vị trí của "
+          "nó trong hệ thống phép biện chứng và trong tiến trình nhận thức. Trên cơ sở đó, chương rút ra "
+          "những yêu cầu phương pháp luận được dùng làm công cụ phân tích ở các chương sau."),
 
     # ------------------------------------------------------------------ 1.1
     ("h2", "1.1. Phạm trù và hệ thống phạm trù của phép biện chứng duy vật"),
@@ -69,15 +74,16 @@ BLOCKS = [
           "định bản chất không tồn tại tách rời mà ở ngay trong các sự vật riêng lẻ, song quan niệm của ông "
           "còn dao động giữa chủ nghĩa duy vật và chủ nghĩa duy tâm [@bgd2015]."),
     ("h3", "1.2.2. Triết học Tây Âu cận đại và triết học cổ điển Đức"),
-    ("p", "Trong triết học cận đại, J. Lốccơ phân biệt “chất có đầu tiên” (quảng tính, hình dạng, vận động) "
-          "tồn tại trong bản thân vật thể với “chất có thứ hai” (màu sắc, mùi vị, âm thanh) chỉ tồn tại "
-          "trong cảm giác của chủ thể. G. Béccơli đi đến chủ nghĩa duy tâm chủ quan khi cho rằng tồn tại "
-          "có nghĩa là được tri giác. Đ. Hium cho rằng con người chỉ biết được các ấn tượng cảm tính của "
-          "mình và không thể biết có gì tồn tại ở phía sau chúng [@bgd2015]. I. Cantơ thừa nhận sự tồn tại "
-          "khách quan của “vật tự nó”, nhưng khẳng định con người chỉ nhận thức được “hiện tượng”, tức "
-          "là vật như nó hiện ra đối với chủ thể thông qua các hình thức tiên nghiệm của cảm tính và giác "
-          "tính; còn “vật tự nó” là không thể nhận thức. Như vậy, ở Cantơ, bản chất và hiện tượng bị tách "
-          "rời bằng một ranh giới về nguyên tắc."),
+    ("p", "Trong triết học cận đại, J. Lốccơ phân biệt những “tính chất thứ nhất” (quảng tính, hình dạng, vận "
+          "động) tồn tại trong bản thân vật thể với những “tính chất thứ hai” (màu sắc, mùi vị, âm thanh) chỉ "
+          "tồn tại trong cảm giác của chủ thể. G. Béccơli đi đến chủ nghĩa duy tâm chủ quan khi cho rằng tồn "
+          "tại có nghĩa là được tri giác. Đ. Hium cho rằng con người chỉ biết được các ấn tượng cảm tính của "
+          "mình và không thể biết có gì tồn tại ở phía sau chúng, qua đó đi đến hoài nghi luận và bất khả tri "
+          "luận [@bgd2015]. I. Cantơ thừa nhận sự tồn tại khách quan của “vật tự nó”, nhưng khẳng định con "
+          "người chỉ nhận thức được “hiện tượng”, tức là vật như nó hiện ra đối với chủ thể thông qua các hình "
+          "thức tiên nghiệm của cảm tính và giác tính; còn “vật tự nó” là không thể nhận thức. Như vậy, ở "
+          "Cantơ, bản chất và hiện tượng bị tách rời bằng một ranh giới về nguyên tắc; đây là một hình thức "
+          "của bất khả tri luận."),
     ("p", "G.W.F. Hêghen phê phán sự tách rời đó. Trong học thuyết về bản chất thuộc *Khoa học lôgíc*, ông "
           "khẳng định bản chất phải hiện ra, và hiện tượng không phải là cái gì ngoài bản chất mà chính là "
           "sự biểu hiện của bản chất. Đây là đóng góp biện chứng quan trọng, được V.I. Lênin đánh giá cao "
@@ -118,11 +124,11 @@ BLOCKS = [
           "thể biết và cái không thể biết, mà là ranh giới lịch sử, có thể dịch chuyển, giữa cái đã biết và "
           "cái chưa biết; thực tiễn, trước hết là thực tiễn thí nghiệm và sản xuất, là phương tiện để dịch "
           "chuyển ranh giới đó."),
-    ("p", "Lập luận về alizarin có ý nghĩa đặc biệt đối với người nghiên cứu hóa học. Nó cho thấy bản chất "
-          "của một chất không phải là cái bí ẩn vĩnh viễn nằm sau các thuộc tính cảm tính, mà là cấu trúc "
-          "và các mối liên hệ có thể được xác lập bằng phân tích, được kiểm chứng bằng tổng hợp và được sử "
-          "dụng trong sản xuất. Khả năng tái tạo sự vật một cách có chủ đích là bằng chứng thực tiễn cao "
-          "nhất cho tính đúng đắn của tri thức về bản chất của nó."),
+    ("p", "Lập luận về alizarin có ý nghĩa đặc biệt đối với người nghiên cứu hóa học. Nó cho thấy bản chất của "
+          "một chất không phải là cái bí ẩn vĩnh viễn nằm sau các thuộc tính cảm tính, mà là cấu trúc và các "
+          "mối liên hệ có thể được xác lập bằng phân tích, được kiểm chứng bằng tổng hợp và được sử dụng trong "
+          "sản xuất. Khả năng tái tạo sự vật một cách có chủ đích là một trong những hình thức kiểm nghiệm "
+          "thực tiễn có sức thuyết phục nhất đối với tri thức về bản chất của sự vật đó."),
 
     # ------------------------------------------------------------------ 1.3
     ("h2", "1.3. Quan niệm duy vật biện chứng về bản chất, hiện tượng và giả tượng"),
@@ -142,13 +148,14 @@ BLOCKS = [
           "luật; còn bản chất của nguyên tố hóa học là tổng thể các mối liên hệ giữa điện tích hạt nhân, cấu "
           "hình electron và các tính chất lý – hóa mà quy luật tuần hoàn chỉ biểu đạt một phương diện."),
     ("h3", "1.3.2. Giả tượng"),
-    ("p", "Cần phân biệt hiện tượng với **giả tượng**. Giả tượng cũng là hiện tượng khách quan, nhưng biểu "
-          "hiện bản chất dưới dạng xuyên tạc, khiến người quan sát, nếu dừng lại ở bề mặt, gán cho sự vật một "
+    ("p", "Hiện tượng không phải bao giờ cũng biểu hiện bản chất một cách đầy đủ và trực tiếp; có những hiện "
+          "tượng biểu hiện bản chất dưới dạng xuyên tạc, được gọi là **giả tượng**. Giả tượng cũng là hiện "
+          "tượng khách quan, nhưng nếu dừng lại ở biểu hiện bên ngoài, người quan sát sẽ gán cho sự vật một "
           "bản chất mà nó không có [@bgd2015; @bgd2021]. Giả tượng khác với ảo giác chủ quan ở chỗ nó phát "
           "sinh từ chính các điều kiện khách quan trong đó bản chất được biểu hiện; do đó, không thể loại bỏ "
-          "giả tượng bằng cách phủ nhận dữ kiện, mà chỉ có thể vượt qua nó bằng cách làm rõ những điều kiện "
-          "đã sinh ra nó. Ví dụ quen thuộc là hiện tượng Mặt Trời “quay quanh” Trái Đất: đó là một biểu hiện "
-          "có thật, được quan sát bởi mọi người, nhưng biểu hiện một bản chất ngược lại."),
+          "giả tượng bằng cách phủ nhận dữ kiện, mà chỉ có thể vượt qua nó bằng cách làm rõ những điều kiện đã "
+          "sinh ra nó. Ví dụ quen thuộc là hiện tượng Mặt Trời “quay quanh” Trái Đất: đó là một biểu hiện có "
+          "thật, được quan sát bởi mọi người, nhưng biểu hiện một bản chất ngược lại."),
     ("p", "Trong thực nghiệm khoa học, giả tượng thường xuất hiện khi điều kiện đo không được kiểm soát đầy "
           "đủ hoặc khi phương tiện đo tạo ra tín hiệu của chính nó. Như sẽ phân tích ở Chương 3, nhiều “hoạt "
           "tính” được ghi nhận trong thử nghiệm sinh học thuộc loại giả tượng: tín hiệu đo là có thật, nhưng "
@@ -192,14 +199,15 @@ BLOCKS = [
           "phương tiện nhận thức phát triển, một phần của bản chất trước đây chuyển thành cái có thể đo đạc, "
           "tức là trở thành hiện tượng ở một trình độ mới, và nhận thức lại tiếp tục đi sâu hơn."),
     ("h3", "1.4.3. Tính nhiều cấp độ của bản chất"),
-    ("p", "Bản chất có nhiều cấp độ. V.I. Lênin chỉ ra rằng tư tưởng của con người không ngừng đi sâu từ "
-          "hiện tượng đến bản chất, từ bản chất cấp một đến bản chất cấp hai và cứ thế tiếp tục [@lenin29]. "
-          "Luận điểm này có ba hệ quả phương pháp luận. *Một là*, tri thức về bản chất ở mỗi cấp độ là tri "
-          "thức tương đối, đúng trong những giới hạn xác định. *Hai là*, bản chất ở cấp độ sâu hơn không xóa "
-          "bỏ mà bao hàm và giải thích bản chất ở cấp độ nông hơn, tức là quan hệ giữa các cấp độ bản chất "
-          "tuân theo quy luật phủ định biện chứng, có kế thừa. *Ba là*, cái được coi là bản chất ở cấp độ này "
-          "có thể lại là hiện tượng đối với cấp độ sâu hơn; chẳng hạn, định luật tuần hoàn là bản chất của sự "
-          "lặp lại tính chất các nguyên tố, nhưng bản thân nó lại là biểu hiện của cấu trúc lớp vỏ electron."),
+    ("p", "Bản chất có nhiều cấp độ. V.I. Lênin chỉ ra rằng tư tưởng của con người không ngừng đi sâu từ hiện "
+          "tượng đến bản chất, từ bản chất cấp một đến bản chất cấp hai và cứ thế tiếp tục [@lenin29]. Luận "
+          "điểm này có ba hệ quả phương pháp luận. *Một là*, tri thức về bản chất ở mỗi cấp độ là tri thức "
+          "tương đối, đúng trong những giới hạn xác định. *Hai là*, bản chất ở cấp độ sâu hơn không xóa bỏ mà "
+          "bao hàm và giải thích bản chất ở cấp độ thấp hơn; quan hệ giữa các cấp độ bản chất vì vậy mang tính "
+          "chất của phủ định biện chứng, tức là có kế thừa và có tính tiến lên. *Ba là*, cái được coi là bản "
+          "chất ở cấp độ này có thể lại là hiện tượng đối với cấp độ sâu hơn; chẳng hạn, định luật tuần hoàn "
+          "là bản chất của sự lặp lại tính chất các nguyên tố, nhưng bản thân nó lại là biểu hiện của cấu trúc "
+          "lớp vỏ electron."),
 
     # ------------------------------------------------------------------ 1.5
     ("h2", "1.5. Cặp phạm trù bản chất – hiện tượng trong hệ thống phép biện chứng duy vật"),
@@ -247,37 +255,40 @@ BLOCKS = [
     ("p", "Theo lý luận phản ánh của chủ nghĩa duy vật biện chứng, nhận thức là quá trình phản ánh tích cực, "
           "sáng tạo hiện thực khách quan vào bộ óc con người trên cơ sở thực tiễn. V.I. Lênin đã khái quát: "
           "“Từ trực quan sinh động đến tư duy trừu tượng, và từ tư duy trừu tượng đến thực tiễn – đó là con "
-          "đường biện chứng của sự nhận thức chân lý, của sự nhận thức thực tại khách quan” [@lenin29]. Ở "
-          "giai đoạn nhận thức cảm tính, thông qua cảm giác, tri giác và biểu tượng, con người tiếp nhận "
-          "hiện tượng. Ở giai đoạn nhận thức lý tính, thông qua khái niệm, phán đoán và suy luận, con người "
-          "trừu tượng hóa khỏi những yếu tố ngẫu nhiên, cá biệt để nắm bắt cái chung, cái tất nhiên, tức là "
-          "bản chất [@bgd2021]."),
+          "đường biện chứng của sự nhận thức chân lý, của sự nhận thức thực tại khách quan” [@lenin29]. Ở giai "
+          "đoạn nhận thức cảm tính, thông qua cảm giác, tri giác và biểu tượng, con người tiếp nhận hiện "
+          "tượng. Ở giai đoạn nhận thức lý tính, thông qua khái niệm, phán đoán và suy lý, con người trừu "
+          "tượng hóa khỏi những yếu tố ngẫu nhiên, cá biệt để nắm bắt cái chung, cái tất nhiên, tức là bản "
+          "chất [@bgd2021]."),
     ("p", "Hai giai đoạn này thống nhất với nhau. Nhận thức lý tính phải dựa trên tài liệu do nhận thức cảm "
-          "tính cung cấp; tách khỏi hiện tượng, tư duy trừu tượng dễ rơi vào tư biện. Ngược lại, nhận thức "
-          "cảm tính chỉ đem lại hiện tượng; dừng lại ở đó, nhận thức rơi vào chủ nghĩa kinh nghiệm hẹp hòi. "
-          "Trong khoa học thực nghiệm hiện đại, nhận thức cảm tính được mở rộng bằng các thiết bị đo; do "
-          "đó, “hiện tượng” mà nhà khoa học tiếp nhận không còn là cảm giác trực tiếp, mà là tín hiệu đã "
-          "được thiết bị và các giả định lý thuyết trung gian. Điều này làm tăng khả năng tiếp cận bản chất, "
-          "nhưng cũng làm xuất hiện những dạng giả tượng mới gắn với chính phương tiện đo."),
+          "tính cung cấp; tuyệt đối hóa vai trò của tư duy trừu tượng, tách nó khỏi hiện tượng, là lập trường "
+          "của chủ nghĩa duy lý và dẫn đến lối tư duy tư biện. Ngược lại, nhận thức cảm tính chỉ đem lại hiện "
+          "tượng; tuyệt đối hóa nó, coi hiện tượng là toàn bộ đối tượng của nhận thức, là lập trường của chủ "
+          "nghĩa kinh nghiệm. Trong khoa học thực nghiệm hiện đại, nhận thức cảm tính được mở rộng bằng các "
+          "thiết bị đo; do đó, “hiện tượng” mà nhà khoa học tiếp nhận không còn là cảm giác trực tiếp, mà là "
+          "tín hiệu được tạo ra thông qua thiết bị đo và phụ thuộc vào các giả định lý thuyết của phép đo. "
+          "Điều này làm tăng khả năng tiếp cận bản chất, nhưng cũng làm xuất hiện những dạng giả tượng mới gắn "
+          "với chính phương tiện đo."),
     ("p", "Điều này không làm mất đi tính khách quan của hiện tượng khoa học. Theo quan điểm duy vật biện "
-          "chứng, phản ánh là một quá trình tích cực, được trung gian bởi hoạt động thực tiễn; thiết bị đo "
-          "là sản phẩm của thực tiễn và là sự vật chất hóa của những tri thức đã được kiểm nghiệm. Kết quả đo "
-          "vì vậy là một hiện tượng khách quan, nhưng là hiện tượng của một *quan hệ*: quan hệ giữa đối tượng "
-          "nghiên cứu, phương tiện đo và điều kiện đo. Khi quên đi tính chất quan hệ đó và coi kết quả đo là "
-          "thuộc tính riêng của đối tượng, người nghiên cứu dễ gán cho đối tượng những đặc điểm thực ra thuộc "
-          "về phương tiện hoặc điều kiện đo. Đây là cơ sở nhận thức luận của nhiều dạng giả tượng sẽ được "
-          "phân tích ở Chương 3."),
+          "chứng, phản ánh là một quá trình tích cực, diễn ra trên cơ sở và thông qua hoạt động thực tiễn; "
+          "thiết bị đo là sản phẩm của thực tiễn và là sự vật chất hóa của những tri thức đã được kiểm nghiệm. "
+          "Kết quả đo vì vậy là một hiện tượng khách quan, nhưng là hiện tượng của một *quan hệ*: quan hệ giữa "
+          "đối tượng nghiên cứu, phương tiện đo và điều kiện đo. Khi quên đi tính chất quan hệ đó và coi kết "
+          "quả đo là thuộc tính riêng của đối tượng, người nghiên cứu dễ gán cho đối tượng những đặc điểm thực "
+          "ra thuộc về phương tiện hoặc điều kiện đo. Đây là cơ sở nhận thức luận của nhiều dạng giả tượng sẽ "
+          "được phân tích ở Chương 3."),
     ("h3", "1.6.2. Mô hình, giả thuyết và chân lý"),
     ("p", "Trên con đường từ hiện tượng đến bản chất, khoa học sử dụng mô hình và giả thuyết như những hình "
           "thức trung gian. Mô hình là sự tái hiện có đơn giản hóa đối tượng; nó phản ánh một số mặt của "
           "bản chất trong những giới hạn xác định. Giả thuyết là một phán đoán về bản chất chưa được chứng "
           "minh; nó chỉ trở thành lý thuyết khi được thực tiễn kiểm nghiệm. Nhầm lẫn mô hình với đối tượng, "
           "hoặc coi giả thuyết là chân lý đã được xác lập, là hai dạng sai lầm nhận thức luận phổ biến."),
-    ("p", "Chân lý là tri thức phù hợp với hiện thực khách quan và được thực tiễn kiểm nghiệm. Chân lý có "
-          "tính khách quan, tính tương đối và tính tuyệt đối, và tính cụ thể. Mọi tri thức về bản chất đạt "
-          "được ở một thời điểm đều là chân lý tương đối, đúng trong những điều kiện xác định; tổng số các "
-          "chân lý tương đối hợp thành chân lý tuyệt đối. Không có chân lý trừu tượng; chân lý luôn luôn là "
-          "cụ thể, gắn với những điều kiện lịch sử – cụ thể của đối tượng được phản ánh [@bgd2021]."),
+    ("p", "Chân lý là tri thức phù hợp với hiện thực khách quan và được thực tiễn kiểm nghiệm. Chân lý có các "
+          "tính chất: tính khách quan, tính tương đối và tính tuyệt đối, tính cụ thể. Mọi tri thức về bản chất "
+          "đạt được ở một thời điểm đều là chân lý tương đối, đúng trong những điều kiện xác định; theo V.I. "
+          "Lênin, chân lý tuyệt đối được cấu thành từ tổng số những chân lý tương đối đang phát triển "
+          "[@lenin18]. Không có chân lý trừu tượng; chân lý luôn luôn là cụ thể, gắn với những điều kiện lịch "
+          "sử – cụ thể của đối tượng được phản ánh [@bgd2021]."),
     ("h3", "1.6.3. Thực tiễn – tiêu chuẩn kiểm nghiệm tri thức về bản chất"),
     ("p", "Thực tiễn là cơ sở, động lực, mục đích và tiêu chuẩn của nhận thức. V.I. Lênin nhấn mạnh rằng "
           "quan điểm về đời sống, về thực tiễn phải là quan điểm thứ nhất và cơ bản của lý luận về nhận "
@@ -297,22 +308,23 @@ BLOCKS = [
           "hiệu quả. Trong hoạt động thực tiễn, cần căn cứ vào bản chất chứ không căn cứ vào hiện tượng để "
           "đánh giá sự vật."),
     ("p", "*Thứ hai*, muốn nhận thức bản chất phải xuất phát từ hiện tượng, vì bản chất chỉ bộc lộ qua hiện "
-          "tượng. Hơn nữa, cần nghiên cứu nhiều hiện tượng trong nhiều điều kiện khác nhau, vì một hiện "
-          "tượng riêng lẻ chỉ phản ánh một phương diện của bản chất. Yêu cầu này là sự cụ thể hóa nguyên "
-          "tắc khách quan và nguyên tắc toàn diện."),
+          "tượng. Hơn nữa, cần nghiên cứu nhiều hiện tượng trong nhiều điều kiện khác nhau, vì một hiện tượng "
+          "riêng lẻ chỉ phản ánh một phương diện của bản chất. Yêu cầu này là sự cụ thể hóa nguyên tắc khách "
+          "quan và quan điểm toàn diện."),
     ("p", "*Thứ ba*, cần phân biệt hiện tượng điển hình với giả tượng. Lấy giả tượng làm căn cứ sẽ dẫn đến "
           "kết luận sai về bản chất và do đó dẫn đến hành động sai trong thực tiễn. Việc phân biệt này đòi "
           "hỏi làm rõ những điều kiện khách quan đã sinh ra hiện tượng."),
-    ("p", "*Thứ tư*, nhận thức bản chất là quá trình đi từ bản chất cấp thấp đến bản chất cấp cao hơn, gắn "
-          "với những điều kiện lịch sử – cụ thể; thực tiễn là tiêu chuẩn để kiểm nghiệm mức độ đúng đắn của "
-          "tri thức về bản chất. Yêu cầu này là sự cụ thể hóa nguyên tắc lịch sử – cụ thể, nguyên tắc phát "
-          "triển và nguyên tắc thống nhất giữa lý luận và thực tiễn."),
-    ("p", "Vi phạm các yêu cầu trên dẫn đến hai khuynh hướng sai lầm đối lập nhau. Khuynh hướng thứ nhất là "
-          "chủ nghĩa kinh nghiệm hẹp hòi: tuyệt đối hóa hiện tượng, coi dữ kiện quan sát được là bản chất, "
-          "coi số liệu đo được là kết luận. Khuynh hướng thứ hai là chủ nghĩa giáo điều: xuất phát từ những "
-          "khuôn mẫu, mô hình hoặc quy tắc có sẵn để phán xét sự vật mà không qua phân tích hiện tượng cụ "
-          "thể. Cả hai khuynh hướng đều là biểu hiện của phương pháp tư duy siêu hình, tách rời bản chất "
-          "khỏi hiện tượng."),
+    ("p", "*Thứ tư*, nhận thức bản chất là quá trình đi từ bản chất cấp thấp đến bản chất cấp cao hơn, gắn với "
+          "những điều kiện lịch sử – cụ thể; thực tiễn là tiêu chuẩn để kiểm nghiệm mức độ đúng đắn của tri "
+          "thức về bản chất. Yêu cầu này là sự cụ thể hóa quan điểm lịch sử – cụ thể, quan điểm phát triển và "
+          "nguyên tắc thống nhất giữa lý luận và thực tiễn."),
+    ("p", "Vi phạm các yêu cầu trên dẫn đến hai khuynh hướng sai lầm đối lập nhau, đều trái với nguyên tắc "
+          "thống nhất giữa lý luận và thực tiễn. Khuynh hướng thứ nhất là bệnh kinh nghiệm: tuyệt đối hóa kinh "
+          "nghiệm và hiện tượng, coi dữ kiện quan sát được là bản chất, coi số liệu đo được là kết luận, xem "
+          "nhẹ vai trò của lý luận. Khuynh hướng thứ hai là bệnh giáo điều: tuyệt đối hóa lý luận, xuất phát "
+          "từ những khuôn mẫu, mô hình hoặc quy tắc có sẵn để phán xét sự vật mà không qua phân tích hiện "
+          "tượng cụ thể. Cả hai khuynh hướng đều là biểu hiện của phương pháp tư duy siêu hình: khuynh hướng "
+          "thứ nhất đồng nhất bản chất với hiện tượng, khuynh hướng thứ hai tách rời bản chất khỏi hiện tượng."),
 
     ("sub", "Tiểu kết Chương 1"),
     ("p", "Chương 1 đã hệ thống hóa lịch sử vấn đề và quan niệm duy vật biện chứng về bản chất, hiện tượng "

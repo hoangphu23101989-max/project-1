@@ -4,11 +4,12 @@
 BLOCKS = [
     ("h1", "CHƯƠNG 2\nSỰ VẬN ĐỘNG CỦA NHẬN THỨC TỪ HIỆN TƯỢNG ĐẾN BẢN CHẤT TRONG LỊCH SỬ HÓA HỌC",
      "CHƯƠNG 2. SỰ VẬN ĐỘNG CỦA NHẬN THỨC TỪ HIỆN TƯỢNG ĐẾN BẢN CHẤT TRONG LỊCH SỬ HÓA HỌC"),
-    ("p", "Lịch sử của một khoa học là bằng chứng thực tiễn cho những luận điểm của lý luận nhận thức. "
-          "Theo nguyên tắc thống nhất giữa lôgíc và lịch sử, con đường mà nhận thức của nhân loại đã đi "
-          "qua trong một lĩnh vực phản ánh, dưới dạng rút gọn, lôgíc của quá trình đi từ hiện tượng đến bản "
-          "chất. Chương này phân tích năm trường hợp tiêu biểu của lịch sử hóa học, nhằm làm rõ các luận "
-          "điểm đã trình bày ở Chương 1 và rút ra những bài học nhận thức luận làm cơ sở cho các chương sau."),
+    ("p", "Lịch sử của một khoa học là chất liệu thực tiễn để kiểm chứng và làm sáng tỏ những luận điểm của lý "
+          "luận nhận thức. Theo nguyên tắc thống nhất giữa lôgíc và lịch sử, cái lôgíc là sự phản ánh cái lịch "
+          "sử dưới hình thức khái quát, đã gạt bỏ những yếu tố ngẫu nhiên; vì vậy, con đường mà nhận thức của "
+          "nhân loại đã đi qua trong một lĩnh vực cho phép làm rõ lôgíc của quá trình đi từ hiện tượng đến bản "
+          "chất. Chương này phân tích năm trường hợp tiêu biểu của lịch sử hóa học, nhằm làm rõ các luận điểm "
+          "đã trình bày ở Chương 1 và rút ra những bài học nhận thức luận làm cơ sở cho các chương sau."),
 
     # ------------------------------------------------------------------ 2.1
     ("h2", "2.1. Sự cháy: từ thuyết phlogiston đến thuyết oxy hóa"),
@@ -26,16 +27,16 @@ BLOCKS = [
           "kín, đã chứng minh rằng sự cháy và sự nung là quá trình kết hợp với một thành phần của không khí, "
           "được ông gọi là oxygène; kết quả này được hệ thống hóa trong *Traité élémentaire de chimie* "
           "(1789), cùng với nguyên lý bảo toàn khối lượng [@brock1992]."),
-    ("p", "Xét dưới góc độ triết học, trường hợp này minh họa ba luận điểm. *Thứ nhất*, sự giảm khối lượng "
-          "khi gỗ cháy là một giả tượng: nó có thật trong hệ hở, nhưng biểu hiện xuyên tạc bản chất của quá "
-          "trình, vì sản phẩm cháy là chất khí thoát ra; chỉ khi thí nghiệm được tiến hành trong hệ kín, bản "
-          "chất mới bộc lộ. Điều này khẳng định rằng giả tượng không bị loại bỏ bằng cách phủ nhận dữ kiện, "
-          "mà bằng cách thay đổi và kiểm soát điều kiện biểu hiện. *Thứ hai*, Priestley và Scheele đã có "
-          "trong tay hiện tượng mới, nhưng vẫn diễn giải nó bằng khuôn khổ lý thuyết cũ; đây là minh họa "
-          "cho sự chi phối của hệ thống phạm trù đã có đối với việc tiếp nhận hiện tượng, và cho nguy cơ của "
-          "chủ nghĩa giáo điều trong nhận thức khoa học. *Thứ ba*, mâu thuẫn giữa lý thuyết đang thống trị "
-          "và hiện tượng không phù hợp với nó là động lực của sự phát triển nhận thức; việc giải quyết mâu "
-          "thuẫn đó đã dẫn đến một bước nhảy về chất trong hóa học."),
+    ("p", "Trường hợp này minh họa ba luận điểm của lý luận nhận thức. *Thứ nhất*, sự giảm khối lượng khi gỗ "
+          "cháy là một giả tượng: nó có thật trong hệ hở, nhưng biểu hiện xuyên tạc bản chất của quá trình, vì "
+          "sản phẩm cháy là chất khí thoát ra; chỉ khi thí nghiệm được tiến hành trong hệ kín, bản chất mới "
+          "bộc lộ. Điều này khẳng định rằng giả tượng không bị loại bỏ bằng cách phủ nhận dữ kiện, mà bằng "
+          "cách thay đổi và kiểm soát điều kiện biểu hiện. *Thứ hai*, Priestley và Scheele đã có trong tay "
+          "hiện tượng mới, nhưng vẫn diễn giải nó bằng khuôn khổ lý thuyết cũ; đây là minh họa cho sự chi phối "
+          "của hệ thống phạm trù đã có đối với việc tiếp nhận hiện tượng, và cho nguy cơ của bệnh giáo điều "
+          "trong nhận thức khoa học. *Thứ ba*, mâu thuẫn giữa lý thuyết đang giữ vai trò chủ đạo và hiện tượng "
+          "không phù hợp với nó là động lực của sự phát triển nhận thức; việc giải quyết mâu thuẫn đó đã dẫn "
+          "đến một bước nhảy về chất trong hóa học."),
 
     # ------------------------------------------------------------------ 2.2
     ("h2", "2.2. Tính tuần hoàn của các nguyên tố: từ khối lượng nguyên tử đến điện tích hạt nhân"),
@@ -52,14 +53,15 @@ BLOCKS = [
           "lượng tương ứng với điện tích hạt nhân [@moseley1913]. Sau đó, cơ học lượng tử giải thích tính "
           "tuần hoàn bằng cấu hình electron của nguyên tử [@brock1992]."),
     ("p", "Trường hợp này minh họa rõ luận điểm về các cấp độ của bản chất. Sự lặp lại của các tính chất là "
-          "hiện tượng. Định luật tuần hoàn theo khối lượng nguyên tử là bản chất cấp một, đủ để dự báo "
-          "những nguyên tố chưa biết. Quan hệ với điện tích hạt nhân là bản chất cấp hai, giải thích được "
-          "các trường hợp đảo ngược. Cấu hình electron là bản chất cấp ba, giải thích vì sao có sự tuần hoàn. "
-          "Mỗi cấp độ sau không bác bỏ mà bao hàm và giới hạn phạm vi đúng của cấp độ trước, đúng với tính "
-          "chất phủ định biện chứng có kế thừa. Đáng chú ý là các “ngoại lệ”, tức những hiện tượng không "
-          "khớp với bản chất cấp một, lại chính là đầu mối dẫn đến bản chất cấp hai. Đồng thời, định luật "
-          "tuần hoàn theo điện tích hạt nhân là một minh họa của quy luật lượng – chất: sự thay đổi một đơn "
-          "vị điện tích hạt nhân dẫn đến một nguyên tố mới, tức là một chất mới."),
+          "hiện tượng. Định luật tuần hoàn theo khối lượng nguyên tử là bản chất cấp một, đủ để dự báo những "
+          "nguyên tố chưa biết. Quan hệ với điện tích hạt nhân là bản chất cấp hai, giải thích được các trường "
+          "hợp đảo ngược. Cấu hình electron là bản chất cấp ba, giải thích vì sao có sự tuần hoàn. Mỗi cấp độ "
+          "sau không bác bỏ mà bao hàm và giới hạn phạm vi đúng của cấp độ trước, đúng với tính chất phủ định "
+          "biện chứng có kế thừa. Đáng chú ý là các “ngoại lệ”, tức những hiện tượng không khớp với bản chất "
+          "cấp một, lại chính là đầu mối dẫn đến bản chất cấp hai. Đồng thời, định luật tuần hoàn theo điện "
+          "tích hạt nhân là một minh họa của quy luật chuyển hóa từ những thay đổi về lượng thành những thay "
+          "đổi về chất: điện tích hạt nhân tăng thêm một đơn vị (thay đổi về lượng) làm xuất hiện một nguyên "
+          "tố mới với những thuộc tính khác (thay đổi về chất)."),
 
     # ------------------------------------------------------------------ 2.3
     ("h2", "2.3. Các thuyết acid – base: những cấp độ nhận thức bản chất"),
@@ -69,20 +71,20 @@ BLOCKS = [
           "T.M. Lowry, độc lập với nhau, định nghĩa acid là chất cho proton và base là chất nhận proton "
           "[@bronsted1923; @lowry1923]. Cùng năm, G.N. Lewis đưa ra một định nghĩa tổng quát hơn: acid là "
           "chất nhận cặp electron, base là chất cho cặp electron [@lewis1923]."),
-    ("p", "Ba thuyết này không phải là ba quan niệm loại trừ nhau, mà là ba cấp độ nhận thức bản chất của "
-          "cùng một nhóm hiện tượng (Bảng 2.1). Thuyết sau bao hàm thuyết trước như một trường hợp riêng: "
-          "mọi acid Arrhenius đều là acid Brønsted – Lowry, và mọi phản ứng trao đổi proton đều có thể được "
-          "mô tả như tương tác cho – nhận cặp electron. Đây là biểu hiện của quy luật phủ định của phủ định "
-          "trong sự phát triển của nhận thức: cái mới phủ định cái cũ nhưng giữ lại những yếu tố hợp lý của "
-          "nó, và sự phát triển diễn ra theo hướng mở rộng phạm vi hiện tượng được giải thích. Tri thức ở "
-          "mỗi cấp độ là chân lý tương đối, đúng trong những giới hạn xác định; việc sử dụng thuyết nào tùy "
-          "thuộc vào điều kiện cụ thể của vấn đề, đúng với tính cụ thể của chân lý."),
+    ("p", "Ba thuyết này không phải là ba quan niệm loại trừ nhau, mà là ba cấp độ nhận thức bản chất của cùng "
+          "một nhóm hiện tượng (Bảng 2.1). Thuyết sau bao hàm thuyết trước như một trường hợp riêng: mọi acid "
+          "Arrhenius đều là acid Brønsted – Lowry, và mọi phản ứng trao đổi proton đều có thể được mô tả như "
+          "tương tác cho – nhận cặp electron. Đây là biểu hiện của phủ định biện chứng trong sự phát triển của "
+          "nhận thức: cái mới phủ định cái cũ nhưng kế thừa những yếu tố hợp lý của nó, và sự phát triển diễn "
+          "ra theo hướng mở rộng phạm vi hiện tượng được giải thích. Tri thức ở mỗi cấp độ là chân lý tương "
+          "đối, đúng trong những giới hạn xác định; việc sử dụng thuyết nào tùy thuộc vào điều kiện cụ thể của "
+          "vấn đề, đúng với tính cụ thể của chân lý."),
     ("table", "B2_1"),
-    ("p", "Khái niệm acid Lewis còn cho thấy một bản chất có thể được nhận thức sâu hơn qua những lĩnh vực "
-          "hiện tượng rất khác nhau. Chẳng hạn, captopril, một thuốc ức chế enzyme chuyển angiotensin, được "
-          "thiết kế sao cho nhóm thiol của nó liên kết với ion kẽm ở tâm hoạt động của enzyme [@cushman1991]; "
-          "tương tác giữa ion kim loại (acid Lewis) và nhóm cho electron (base Lewis) ở đây là một mắt xích "
-          "trong bản chất của tác dụng dược lý."),
+    ("p", "Khái niệm acid Lewis còn chứng tỏ rằng một bản chất có thể được nhận thức sâu hơn qua những lĩnh "
+          "vực hiện tượng rất khác nhau. Chẳng hạn, captopril, một thuốc ức chế enzyme chuyển angiotensin, "
+          "được thiết kế sao cho nhóm thiol của nó liên kết với ion kẽm ở tâm hoạt động của enzyme "
+          "[@cushman1991]; tương tác giữa ion kim loại (acid Lewis) và nhóm cho electron (base Lewis) ở đây là "
+          "một mắt xích trong bản chất của tác dụng dược lý."),
 
     # ------------------------------------------------------------------ 2.4
     ("h2", "2.4. Đồng phân và tính bất đối: từ thành phần đến cấu trúc không gian"),
@@ -94,18 +96,18 @@ BLOCKS = [
           "thích hiện tượng này bằng cấu trúc tứ diện của nguyên tử carbon [@brock1992]. Nhận thức đã đi "
           "từ hiện tượng (cùng thành phần, khác tính chất) đến bản chất cấp một (khác trật tự liên kết) và "
           "bản chất cấp hai (khác cách sắp xếp trong không gian)."),
-    ("p", "Trường hợp thalidomide cho thấy ý nghĩa thực tiễn của việc dừng lại ở một cấp độ bản chất chưa "
-          "đầy đủ. Thalidomide được đưa ra thị trường cuối thập niên 1950 như một thuốc an thần và gây dị tật "
-          "cho hơn 10.000 trẻ em trước khi bị cấm vào năm 1961 [@vargesson2015]. Phân tử thalidomide có một "
-          "carbon bất đối, và đồng phân S được xác định là đồng phân gây quái thai. Tuy nhiên, hai đồng phân "
-          "chuyển hóa lẫn nhau nhanh chóng trong dịch cơ thể, nên việc chỉ sử dụng một đồng phân không loại "
-          "bỏ được nguy cơ [@vargesson2015]. Năm 2010, cereblon được xác định là đích phân tử chính của tác "
-          "dụng gây quái thai: thalidomide gắn vào cereblon và ức chế phức hợp ubiquitin ligase liên quan "
-          "[@ito2010]. Ở đây, “đồng phân S gây quái thai” là một tri thức về bản chất ở cấp độ lập thể; "
-          "nhưng nếu dừng lại ở đó, người ta sẽ rút ra kết luận thực tiễn sai lầm rằng chỉ cần tách đồng "
-          "phân. Chỉ khi xét đến sự chuyển hóa trong cơ thể (điều kiện cụ thể) và đích phân tử (bản chất cấp "
-          "sâu hơn), tri thức mới đủ để định hướng hành động. Trường hợp này minh họa một cách bi thảm yêu "
-          "cầu “căn cứ vào bản chất chứ không căn cứ vào hiện tượng”, và tính cụ thể của chân lý."),
+    ("p", "Trường hợp thalidomide cho thấy ý nghĩa thực tiễn của việc dừng lại ở một cấp độ bản chất chưa đầy "
+          "đủ. Thalidomide được đưa ra thị trường cuối thập niên 1950 như một thuốc an thần và gây dị tật cho "
+          "hơn 10.000 trẻ em trước khi bị cấm vào năm 1961 [@vargesson2015]. Phân tử thalidomide có một carbon "
+          "bất đối, và đồng phân S được xác định là đồng phân gây quái thai. Tuy nhiên, hai đồng phân chuyển "
+          "hóa lẫn nhau nhanh chóng trong dịch cơ thể, nên việc chỉ sử dụng một đồng phân không loại bỏ được "
+          "nguy cơ [@vargesson2015]. Năm 2010, cereblon được xác định là đích phân tử chính của tác dụng gây "
+          "quái thai: thalidomide gắn vào cereblon và ức chế phức hợp ubiquitin ligase liên quan [@ito2010]. Ở "
+          "đây, “đồng phân S gây quái thai” là một tri thức về bản chất ở cấp độ lập thể; nhưng nếu dừng lại ở "
+          "đó, người ta sẽ rút ra kết luận thực tiễn sai lầm rằng chỉ cần tách đồng phân. Chỉ khi xét đến sự "
+          "chuyển hóa trong cơ thể (điều kiện cụ thể) và đích phân tử (bản chất cấp sâu hơn), tri thức mới đủ "
+          "để định hướng hành động. Với những hậu quả thực tiễn đã được ghi nhận, trường hợp này là minh chứng "
+          "cho yêu cầu “căn cứ vào bản chất chứ không căn cứ vào hiện tượng” và cho tính cụ thể của chân lý."),
 
     # ------------------------------------------------------------------ 2.5
     ("h2", "2.5. Động học enzyme: từ tốc độ phản ứng đến cấu trúc phức hợp"),
@@ -118,33 +120,33 @@ BLOCKS = [
           "theo đó enzyme thay đổi cấu dạng khi gắn cơ chất [@koshland1958]. Năm 1965, cấu trúc không gian "
           "của lysozyme được xác định bằng nhiễu xạ tia X ở độ phân giải 2 Å [@blake1965], mở ra khả năng "
           "tiếp cận trực tiếp cấu trúc của enzyme và phức hợp của nó."),
-    ("p", "Tiến trình này thể hiện rõ con đường từ hiện tượng đến bản chất nhiều cấp: từ đường cong tốc "
-          "độ (hiện tượng), đến mô hình phức hợp và các hằng số động học (bản chất cấp một), đến giả thuyết "
-          "về tính linh động cấu dạng (bản chất cấp hai), đến cấu trúc nguyên tử của phức hợp (bản chất cấp "
-          "ba). Điều quan trọng là phức hợp enzyme – cơ chất đã được xác lập như một bản chất *trước khi* "
-          "được quan sát trực tiếp: tư duy lý tính, dựa trên hiện tượng định lượng, có khả năng vượt trước "
-          "phương tiện quan sát. Đồng thời, việc xác định cấu trúc sau này là sự kiểm nghiệm bằng thực tiễn "
-          "cho suy luận trước đó. Xét trong tiến trình này, một giá trị IC_{50} được đo ngày nay thuộc về "
-          "tầng hiện tượng nông nhất của nhận thức về tương tác enzyme – chất ức chế."),
+    ("p", "Tiến trình này thể hiện rõ con đường từ hiện tượng đến bản chất nhiều cấp: từ đường cong tốc độ "
+          "(hiện tượng), đến mô hình phức hợp và các hằng số động học (bản chất cấp một), đến giả thuyết về "
+          "tính linh động cấu dạng (bản chất cấp hai), đến cấu trúc nguyên tử của phức hợp (bản chất cấp ba). "
+          "Điều quan trọng là phức hợp enzyme – cơ chất đã được xác lập như một bản chất *trước khi* được quan "
+          "sát trực tiếp: tư duy lý tính, dựa trên hiện tượng định lượng, có khả năng vượt trước phương tiện "
+          "quan sát. Đồng thời, việc xác định cấu trúc sau này là sự kiểm nghiệm bằng thực tiễn cho suy luận "
+          "trước đó. Xét trong tiến trình này, một giá trị IC_{50} được đo ngày nay mới thuộc về cấp độ hiện "
+          "tượng, tức cấp độ ban đầu của nhận thức về tương tác enzyme – chất ức chế."),
 
     # ------------------------------------------------------------------ 2.6
     ("h2", "2.6. Phương tiện nhận thức và sự dịch chuyển ranh giới giữa bản chất và hiện tượng"),
-    ("p", "Các trường hợp trên còn cho thấy vai trò của phương tiện nhận thức. Trong thế kỷ XIX, cấu tạo "
+    ("p", "Các trường hợp trên đồng thời làm rõ vai trò của phương tiện nhận thức. Trong thế kỷ XIX, cấu tạo "
           "phân tử là một bản chất chỉ có thể được suy ra một cách gián tiếp từ thành phần nguyên tố, số lượng "
           "đồng phân và các phản ứng hóa học [@brock1992]. Trong thế kỷ XX, nhiễu xạ tia X và các phương pháp "
-          "phổ, trong đó có phổ cộng hưởng từ hạt nhân, cho phép xác định cấu trúc một cách trực tiếp hơn; việc "
-          "xác định cấu trúc không gian của lysozyme năm 1965 là một mốc của quá trình này đối với enzyme "
+          "phổ, trong đó có phổ cộng hưởng từ hạt nhân, cho phép xác định cấu trúc một cách trực tiếp hơn; "
+          "việc xác định cấu trúc không gian của lysozyme năm 1965 là một mốc của quá trình này đối với enzyme "
           "[@blake1965]. Cái từng là bản chất ẩn giấu đã trở thành đối tượng của phép đo, tức là trở thành "
-          "hiện tượng ở một trình độ mới. Quá trình này minh họa luận điểm của V.I. Lênin rằng không có ranh "
-          "giới về nguyên tắc giữa hiện tượng và vật tự nó, mà chỉ có ranh giới giữa cái đã biết và cái chưa "
-          "biết [@lenin18]."),
-    ("p", "Tuy nhiên, phương tiện nhận thức không phải là một “cửa sổ trong suốt” mở vào bản chất. Mỗi "
-          "phương pháp đo dựa trên những giả định lý thuyết nhất định và có những giới hạn riêng, do đó có thể "
-          "tạo ra những giả tượng đặc thù. Vì vậy, sự phát triển của phương tiện nhận thức vừa mở rộng khả "
-          "năng tiếp cận bản chất, vừa đặt ra yêu cầu phải hiểu rõ bản chất của chính phương tiện ấy. Đây là "
-          "một biểu hiện của tính biện chứng trong nhận thức: mỗi bước tiến giải quyết một mâu thuẫn cũ đồng "
-          "thời làm nảy sinh những mâu thuẫn mới, và nhận thức phát triển thông qua việc giải quyết liên tục "
-          "các mâu thuẫn đó."),
+          "hiện tượng ở một trình độ mới. Quá trình này minh họa luận điểm của V.I. Lênin rằng không có sự "
+          "khác nhau về nguyên tắc giữa hiện tượng và vật tự nó, mà chỉ có sự khác nhau giữa cái đã được nhận "
+          "thức và cái chưa được nhận thức [@lenin18]."),
+    ("p", "Tuy nhiên, phương tiện nhận thức không phải là một khâu trung gian trung lập giữa chủ thể và khách "
+          "thể. Mỗi phương pháp đo dựa trên những giả định lý thuyết nhất định và có những giới hạn riêng, do "
+          "đó có thể tạo ra những giả tượng đặc thù. Vì vậy, sự phát triển của phương tiện nhận thức vừa mở "
+          "rộng khả năng tiếp cận bản chất, vừa đặt ra yêu cầu phải hiểu rõ bản chất của chính phương tiện ấy. "
+          "Đây là một biểu hiện của tính biện chứng trong nhận thức: mỗi bước tiến giải quyết một mâu thuẫn cũ "
+          "đồng thời làm nảy sinh những mâu thuẫn mới, và nhận thức phát triển thông qua việc giải quyết liên "
+          "tục các mâu thuẫn đó."),
     ("h2", "2.7. Những bài học nhận thức luận"),
     ("p", "Năm trường hợp trên cho phép rút ra năm bài học nhận thức luận có ý nghĩa đối với nghiên cứu hóa "
           "học hiện nay."),
@@ -154,7 +156,7 @@ BLOCKS = [
     ("p", "*Hai là*, những hiện tượng không phù hợp với lý thuyết đang có, gồm cả những “ngoại lệ” và giả "
           "tượng, là đầu mối của nhận thức bản chất sâu hơn. Mâu thuẫn giữa lý thuyết và dữ kiện là động lực "
           "của sự phát triển nhận thức; bỏ qua hoặc giải thích gượng ép những mâu thuẫn đó, như cách Priestley "
-          "diễn giải khí oxy bằng thuyết phlogiston, là biểu hiện của tư duy giáo điều."),
+          "diễn giải khí oxy bằng thuyết phlogiston, là biểu hiện của bệnh giáo điều."),
     ("p", "*Ba là*, việc vượt qua giả tượng đòi hỏi kiểm soát điều kiện biểu hiện: hệ kín thay cho hệ hở, "
           "đo định lượng thay cho quan sát định tính, phương pháp độc lập thay cho một phương pháp duy nhất."),
     ("p", "*Bốn là*, bản chất có nhiều cấp độ; các cấp độ sau bao hàm các cấp độ trước theo kiểu phủ định "
