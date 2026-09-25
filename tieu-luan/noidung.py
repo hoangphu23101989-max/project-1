@@ -140,8 +140,9 @@ BANG = {
     },
     "B3_2": {
         "tieu_de": "Bảng 3.2. Một số phép thử ức chế enzyme thường dùng và nguy cơ giả tượng",
-        "nguon": "Nguồn: Học viên tổng hợp từ [@ellman1961; @oki1999; @mann2018; @mcgovern2002; "
-                 "@baell2014].",
+        "nguon": "Nguồn: Học viên tổng hợp; nguyên lý phép thử acetylcholinesterase theo [@ellman1961]; "
+                 "sự khác biệt giữa enzyme mô hình và enzyme đích theo [@oki1999; @mann2018]; nguy cơ kết "
+                 "tập và gây nhiễu theo [@mcgovern2002; @baell2014].",
         "rong": [2.9, 3.4, 5.0, 4.2],
         "hang": [
             ("Enzyme", "Nguồn enzyme thường dùng", "Nguyên lý phát hiện",
@@ -314,7 +315,8 @@ TAI_LIEU_ANH = [
                     "the 1913 Michaelis–Menten paper”, *Biochemistry*, 50(39), pp. 8264–8269. "
                     "DOI: 10.1021/bi201284u."),
     ("koshland1958", "Koshland D.E. (1958), “Application of a theory of enzyme specificity to protein "
-                     "synthesis”, *Proceedings of the National Academy of Sciences of the USA*, 44(2), "
+                     "synthesis”, *Proceedings of the National Academy of Sciences of the United States of America*, "
+                     "44(2), "
                      "pp. 98–104. DOI: 10.1073/pnas.44.2.98."),
     ("lewis1923", "Lewis G.N. (1923), *Valence and the Structure of Atoms and Molecules*, The Chemical "
                   "Catalog Company, New York."),
@@ -329,7 +331,8 @@ TAI_LIEU_ANH = [
                      "screening”, *Journal of Medicinal Chemistry*, 45(8), pp. 1712–1722. "
                      "DOI: 10.1021/jm010533y."),
     ("moseley1913", "Moseley H.G.J. (1913), “The high-frequency spectra of the elements”, "
-                    "*Philosophical Magazine*, Series 6, 26(156), pp. 1024–1034. "
+                    "*The London, Edinburgh, and Dublin Philosophical Magazine and Journal of Science*, "
+                    "Series 6, 26(156), pp. 1024–1034. "
                     "DOI: 10.1080/14786441308635052."),
     ("nelson2017", "Nelson K.M., Dahlin J.L., Bisson J., Graham J., Pauli G.F., Walters M.A. (2017), "
                    "“The essential medicinal chemistry of curcumin”, *Journal of Medicinal "
@@ -356,7 +359,7 @@ TAI_LIEU_ANH = [
                 "and how to improve it?”, *Acta Pharmaceutica Sinica B*, 12(7), pp. 3049–3062. "
                 "DOI: 10.1016/j.apsb.2022.02.002."),
     ("vargesson2015", "Vargesson N. (2015), “Thalidomide-induced teratogenesis: history and "
-                      "mechanisms”, *Birth Defects Research Part C: Embryo Today*, 105(2), "
+                      "mechanisms”, *Birth Defects Research Part C: Embryo Today: Reviews*, 105(2), "
                       "pp. 140–156. DOI: 10.1002/bdrc.21096."),
     ("warren2006", "Warren G.L., Andrews C.W., Capelli A.M., et al. (2006), “A critical assessment of "
                    "docking programs and scoring functions”, *Journal of Medicinal Chemistry*, 49(20), "
